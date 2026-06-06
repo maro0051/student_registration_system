@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="mb-4">
+    Dashboard
+</h1>
+
+<div class="row g-4">
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg">
+
+            <div class="card-body text-center">
+
+                <h2>
+                    {{ student_count }}
+                </h2>
+
+                <p>
+                    Students
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg">
+
+            <div class="card-body text-center">
+
+                <h2>
+                    {{ course_count }}
+                </h2>
+
+                <p>
+                    Courses
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg">
+
+            <div class="card-body text-center">
+
+                <h2>
+                    {{ enrollment_count }}
+                </h2>
+
+                <p>
+                    Enrollments
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg">
+
+            <div class="card-body text-center">
+
+                <h2>
+                    {{ avg_gpa }}
+                </h2>
+
+                <p>
+                    Average GPA
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

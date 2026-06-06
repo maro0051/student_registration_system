@@ -1,0 +1,327 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- HEADER -->
+
+<div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div>
+
+        <h1 class="fw-bold mb-2">
+
+            Class Roster
+
+        </h1>
+
+        <p class="text-secondary mb-0">
+
+            {{ offering.course.code }}
+
+            -
+
+            {{ offering.course.name }}
+
+        </p>
+
+    </div>
+
+    <a
+        href="/staff-dashboard/"
+        class="btn btn-secondary"
+    >
+
+        <i class="bi bi-arrow-left"></i>
+
+        Back
+
+    </a>
+
+</div>
+
+<!-- COURSE INFO -->
+
+<div class="card shadow-lg border-0 mb-5">
+
+    <div class="card-body">
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <h6 class="text-secondary">
+
+                    Semester
+
+                </h6>
+
+                <h5>
+
+                    {{ offering.semester.name }}
+
+                </h5>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6 class="text-secondary">
+
+                    Schedule
+
+                </h6>
+
+                <h5>
+
+                    {{ offering.schedule }}
+
+                </h5>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6 class="text-secondary">
+
+                    Room
+
+                </h6>
+
+                <h5>
+
+                    {{ offering.room }}
+
+                </h5>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6 class="text-secondary">
+
+                    Total Students
+
+                </h6>
+
+                <h5>
+
+                    {{ enrollments.count }}
+
+                </h5>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SEARCH -->
+
+<div class="card shadow-lg border-0 mb-4">
+
+    <div class="card-body">
+
+        <input
+            type="text"
+            id="studentSearch"
+            class="form-control"
+            placeholder="Search student by name or ID..."
+        >
+
+    </div>
+
+</div>
+
+<!-- STUDENT TABLE -->
+
+<div class="card shadow-lg border-0">
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Student</th>
+
+                        <th>Student ID</th>
+
+                        <th>Program</th>
+
+                        <th>Status</th>
+
+                        <th>Grade</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for enrollment in enrollments %}
+
+                    <tr class="student-row">
+
+                        <td>
+
+                            <div class="d-flex align-items-center gap-3">
+
+                                {% if enrollment.student.profile_picture %}
+
+                                    <img
+                                        src="{{ enrollment.student.profile_picture.url }}"
+                                        width="45"
+                                        height="45"
+                                        class="rounded-circle"
+                                        style="object-fit: cover;"
+                                    >
+
+                                {% else %}
+
+                                    <img
+                                        src="https://via.placeholder.com/45"
+                                        class="rounded-circle"
+                                    >
+
+                                {% endif %}
+
+                                <div>
+
+                                    <strong>
+
+                                        {{ enrollment.student.user.username }}
+
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </td>
+
+                        <td>
+
+                            {{ enrollment.student.student_id }}
+
+                        </td>
+
+                        <td>
+
+                            {{ enrollment.student.program }}
+
+                        </td>
+
+                        <td>
+
+                            {% if enrollment.status == "ENROLLED" %}
+
+                                <span class="badge bg-success">
+
+                                    Enrolled
+
+                                </span>
+
+                            {% else %}
+
+                                <span class="badge bg-danger">
+
+                                    Dropped
+
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+                        <td>
+
+                            {% if enrollment.final_grade %}
+
+                                {{ enrollment.final_grade }}
+
+                            {% else %}
+
+                                N/A
+
+                            {% endif %}
+
+                        </td>
+
+                    </tr>
+
+                    {% empty %}
+
+                    <tr>
+
+                        <td colspan="5">
+
+                            <div class="text-center py-5">
+
+                                <i
+                                    class="bi bi-people text-secondary"
+                                    style="font-size: 70px;"
+                                ></i>
+
+                                <h4 class="mt-4">
+
+                                    No Students Enrolled
+
+                                </h4>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SEARCH SCRIPT -->
+
+<script>
+
+const searchInput = document.getElementById("studentSearch");
+
+searchInput.addEventListener("keyup", function() {
+
+    let value = this.value.toLowerCase();
+
+    let rows = document.querySelectorAll(".student-row");
+
+    rows.forEach(row => {
+
+        let text = row.innerText.toLowerCase();
+
+        if (text.includes(value)) {
+
+            row.style.display = "";
+
+        } else {
+
+            row.style.display = "none";
+
+        }
+
+    });
+
+});
+
+</script>
+
+{% endblock %}

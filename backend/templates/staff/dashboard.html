@@ -1,0 +1,339 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- HEADER -->
+
+<div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div class="d-flex align-items-center gap-4">
+
+        {% if staff.profile_picture %}
+
+            <img
+                src="{{ staff.profile_picture.url }}"
+                width="120"
+                height="120"
+                class="rounded-circle shadow"
+                style="object-fit: cover; border: 4px solid #3b82f6;"
+            >
+
+        {% else %}
+
+            <img
+                src="https://via.placeholder.com/120"
+                width="120"
+                height="120"
+                class="rounded-circle shadow"
+            >
+
+        {% endif %}
+
+        <div>
+
+            <h1 class="fw-bold mb-2">
+
+                Welcome,
+
+                {{ staff.user.username }}
+
+            </h1>
+
+            <p class="text-secondary mb-2">
+
+                {{ staff.department }}
+
+            </p>
+
+            <span class="badge bg-primary px-3 py-2">
+
+                Instructor Dashboard
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- STATS -->
+
+<div class="row g-4 mb-5">
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Assigned Courses
+
+                </h6>
+
+                <h1 class="fw-bold">
+
+                    {{ total_courses }}
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Total Students
+
+                </h6>
+
+                <h1 class="fw-bold text-success">
+
+                    {{ total_students }}
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Graded Students
+
+                </h6>
+
+                <h1 class="fw-bold text-info">
+
+                    {{ graded_count }}
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Pending Grades
+
+                </h6>
+
+                <h1 class="fw-bold text-warning">
+
+                    {{ pending_count }}
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- COURSES -->
+
+<div class="card shadow-lg border-0">
+
+    <div class="card-body">
+
+        <h3 class="fw-bold mb-4">
+
+            Assigned Courses
+
+        </h3>
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Course</th>
+
+                        <th>Semester</th>
+
+                        <th>Schedule</th>
+
+                        <th>Room</th>
+
+                        <th>Students</th>
+
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for offering in offerings %}
+
+                    <tr>
+
+                        <td>
+
+                            <strong>
+
+                                {{ offering.course.code }}
+
+                            </strong>
+
+                            <br>
+
+                            <small class="text-secondary">
+
+                                {{ offering.course.name }}
+
+                            </small>
+
+                        </td>
+
+                        <td>
+
+                            {{ offering.semester.name }}
+
+                        </td>
+
+                        <td>
+
+                            {{ offering.schedule }}
+
+                        </td>
+
+                        <td>
+
+                            {{ offering.room }}
+
+                        </td>
+
+                        <td>
+
+                            <span class="badge bg-info">
+
+                                {{ offering.enrollment_set.count }}
+
+                                Students
+
+                            </span>
+
+                        </td>
+
+                        <td>
+
+                            <div class="d-flex gap-2 flex-wrap">
+
+                                <!-- ROSTER -->
+
+                                <a
+                                    href="/class-roster/{{ offering.id }}/"
+                                    class="btn btn-primary btn-sm"
+                                >
+
+                                    <i class="bi bi-people-fill"></i>
+
+                                    Roster
+
+                                </a>
+
+                                <!-- GRADES -->
+
+                                <a
+                                    href="/grade-students/{{ offering.id }}/"
+                                    class="btn btn-success btn-sm"
+                                >
+
+                                    <i class="bi bi-pencil-fill"></i>
+
+                                    Grades
+
+                                </a>
+
+                                <!-- ATTENDANCE -->
+
+                                <a
+                                    href="/take-attendance/{{ offering.id }}/"
+                                    class="btn btn-warning btn-sm"
+                                >
+
+                                    <i class="bi bi-calendar-check-fill"></i>
+
+                                    Attendance
+
+                                </a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    {% empty %}
+
+                    <tr>
+
+                        <td colspan="6">
+
+                            <div class="text-center py-5">
+
+                                <i
+                                    class="bi bi-journal-x text-secondary"
+                                    style="font-size: 70px;"
+                                ></i>
+
+                                <h4 class="mt-4">
+
+                                    No Assigned Courses
+
+                                </h4>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,428 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- HEADER -->
+
+<div class="mb-5">
+
+    <h1 class="fw-bold mb-2">
+
+        Admin Dashboard
+
+    </h1>
+
+    <p class="text-secondary">
+
+        University system overview and analytics
+
+    </p>
+
+</div>
+
+<!-- STATS -->
+
+<div class="row g-4 mb-5">
+
+    <!-- STUDENTS -->
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between">
+
+                    <div>
+
+                        <h6 class="text-secondary">
+
+                            Students
+
+                        </h6>
+
+                        <h1 class="fw-bold">
+
+                            {{ total_students }}
+
+                        </h1>
+
+                    </div>
+
+                    <i
+                        class="bi bi-people-fill"
+                        style="font-size: 40px;"
+                    ></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- STAFF -->
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between">
+
+                    <div>
+
+                        <h6 class="text-secondary">
+
+                            Staff
+
+                        </h6>
+
+                        <h1 class="fw-bold text-info">
+
+                            {{ total_staff }}
+
+                        </h1>
+
+                    </div>
+
+                    <i
+                        class="bi bi-person-workspace"
+                        style="font-size: 40px;"
+                    ></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COURSES -->
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between">
+
+                    <div>
+
+                        <h6 class="text-secondary">
+
+                            Courses
+
+                        </h6>
+
+                        <h1 class="fw-bold text-success">
+
+                            {{ total_courses }}
+
+                        </h1>
+
+                    </div>
+
+                    <i
+                        class="bi bi-book-fill"
+                        style="font-size: 40px;"
+                    ></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ENROLLMENTS -->
+
+    <div class="col-md-3">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between">
+
+                    <div>
+
+                        <h6 class="text-secondary">
+
+                            Enrollments
+
+                        </h6>
+
+                        <h1 class="fw-bold text-warning">
+
+                            {{ total_enrollments }}
+
+                        </h1>
+
+                    </div>
+
+                    <i
+                        class="bi bi-journal-check"
+                        style="font-size: 40px;"
+                    ></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- QUICK ACTIONS -->
+
+<div class="row g-4 mb-5">
+
+    <div class="col-md-3">
+
+        <a
+            href="/students/"
+            class="btn btn-primary w-100 py-3"
+        >
+
+            <i class="bi bi-people-fill"></i>
+
+            Manage Students
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/courses/"
+            class="btn btn-success w-100 py-3"
+        >
+
+            <i class="bi bi-book-fill"></i>
+
+            Manage Courses
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/staff-dashboard/"
+            class="btn btn-warning w-100 py-3"
+        >
+
+            <i class="bi bi-person-workspace"></i>
+
+            Staff Portal
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/admin/"
+            class="btn btn-danger w-100 py-3"
+        >
+
+            <i class="bi bi-gear-fill"></i>
+
+            Django Admin
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- RECENT ENROLLMENTS -->
+
+<div class="card shadow-lg border-0 mb-5">
+
+    <div class="card-body">
+
+        <h3 class="fw-bold mb-4">
+
+            Recent Enrollments
+
+        </h3>
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Student</th>
+
+                        <th>Course</th>
+
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for enrollment in recent_enrollments %}
+
+                    <tr>
+
+                        <td>
+
+                            {{ enrollment.student.user.username }}
+
+                        </td>
+
+                        <td>
+
+                            {{ enrollment.offering.course.code }}
+
+                        </td>
+
+                        <td>
+
+                            {% if enrollment.status == "ENROLLED" %}
+
+                                <span class="badge bg-success">
+
+                                    Enrolled
+
+                                </span>
+
+                            {% else %}
+
+                                <span class="badge bg-danger">
+
+                                    Dropped
+
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+                    </tr>
+
+                    {% empty %}
+
+                    <tr>
+
+                        <td colspan="3">
+
+                            No enrollments found.
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- RECENT STUDENTS -->
+
+<div class="card shadow-lg border-0">
+
+    <div class="card-body">
+
+        <h3 class="fw-bold mb-4">
+
+            Recently Added Students
+
+        </h3>
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Student</th>
+
+                        <th>Student ID</th>
+
+                        <th>Program</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for student in recent_students %}
+
+                    <tr>
+
+                        <td>
+
+                            {{ student.user.username }}
+
+                        </td>
+
+                        <td>
+
+                            {{ student.student_id }}
+
+                        </td>
+
+                        <td>
+
+                            {{ student.program }}
+
+                        </td>
+
+                    </tr>
+
+                    {% empty %}
+
+                    <tr>
+
+                        <td colspan="3">
+
+                            No students found.
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+

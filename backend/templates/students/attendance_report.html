@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="mb-4">
+    Attendance Report
+</h1>
+
+<div class="card shadow border-0">
+
+    <div class="card-body">
+
+        <table class="table table-hover">
+
+            <thead>
+
+                <tr>
+
+                    <th>Course</th>
+
+                    <th>Total Classes</th>
+
+                    <th>Present</th>
+
+                    <th>Attendance %</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for item in attendance_data %}
+
+                <tr>
+
+                    <td>
+                        {{ item.course }}
+                    </td>
+
+                    <td>
+                        {{ item.total_classes }}
+                    </td>
+
+                    <td>
+                        {{ item.present_classes }}
+                    </td>
+
+                    <td width="30%">
+
+                        <div class="progress">
+
+                            <div
+                                class="progress-bar
+                                {% if item.warning %}
+                                    bg-danger
+                                {% else %}
+                                    bg-success
+                                {% endif %}"
+                                role="progressbar"
+                                style="display: block;"
+                                aria-valuenow="{{ item.percentage }}"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            >
+
+                                {{ item.percentage }}%
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        {% if item.warning %}
+
+                            <span class="badge bg-danger">
+
+                                Low Attendance
+
+                            </span>
+
+                        {% else %}
+
+                            <span class="badge bg-success">
+
+                                Good Standing
+
+                            </span>
+
+                        {% endif %}
+
+                    </td>
+
+                </tr>
+
+                {% empty %}
+
+                <tr>
+
+                    <td colspan="5">
+
+                        No attendance records found.
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+{% endblock %}

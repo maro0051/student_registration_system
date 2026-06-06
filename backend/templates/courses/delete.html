@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card shadow">
+
+    <div class="card-body">
+
+        <h2 class="mb-4 text-danger">
+            Delete Course
+        </h2>
+
+        <p>
+
+            Are you sure you want to delete:
+
+            <strong>
+                {{ course.name }}
+            </strong>
+
+            ?
+
+        </p>
+
+        <form method="POST">
+
+            {% csrf_token %}
+
+            <button class="btn btn-danger">
+                Delete
+            </button>
+
+            <a
+                href="/courses/"
+                class="btn btn-secondary"
+            >
+                Cancel
+            </a>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

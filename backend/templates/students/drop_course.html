@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+
+    <div class="col-lg-6">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body p-5 text-center">
+
+                <!-- ICON -->
+
+                <div class="mb-4">
+
+                    <i
+                        class="bi bi-exclamation-triangle-fill text-warning"
+                        style="font-size: 70px;"
+                    ></i>
+
+                </div>
+
+                <!-- TITLE -->
+
+                <h2 class="fw-bold mb-3">
+
+                    Drop Course
+
+                </h2>
+
+                <p class="text-secondary mb-5">
+
+                    Are you sure you want to drop this course?
+
+                </p>
+
+                <!-- COURSE DETAILS -->
+
+                <div class="card bg-dark border-0 mb-5">
+
+                    <div class="card-body text-start">
+
+                        <h5 class="fw-bold mb-4">
+
+                            Course Information
+
+                        </h5>
+
+                        <div class="mb-3">
+
+                            <strong>
+                                Course:
+                            </strong>
+
+                            {{ enrollment.offering.course.code }}
+
+                            -
+
+                            {{ enrollment.offering.course.name }}
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <strong>
+                                Instructor:
+                            </strong>
+
+                            {{ enrollment.offering.instructor.user.username }}
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <strong>
+                                Semester:
+                            </strong>
+
+                            {{ enrollment.offering.semester.name }}
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <strong>
+                                Schedule:
+                            </strong>
+
+                            {{ enrollment.offering.schedule }}
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Room:
+                            </strong>
+
+                            {{ enrollment.offering.room }}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ACTIONS -->
+
+                <form method="POST">
+
+                    {% csrf_token %}
+
+                    <button 
+                        type="submit"
+                        class="btn btn-danger px-4 py-2"
+                    >
+                        <i class="bi bi-trash-fill"></i>
+                        Confirm Drop
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

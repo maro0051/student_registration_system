@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card shadow">
+
+    <div class="card-body">
+
+        <h2 class="mb-4">
+            {{ title }}
+        </h2>
+
+        <form method="POST">
+
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <button class="btn btn-success">
+                Save
+            </button>
+
+            <a
+                href="/enrollments/{{ enrollment.id }}/drop/"
+                class="btn btn-secondary"
+            >
+                Cancel
+            </a>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,528 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- HEADER -->
+
+<div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div class="d-flex align-items-center gap-4">
+
+        {% if student.profile_picture %}
+
+            <img
+                src="{{ student.profile_picture.url }}"
+                width="120"
+                height="120"
+                class="rounded-circle shadow"
+                style="object-fit: cover; border: 4px solid #3b82f6;"
+            >
+
+        {% else %}
+
+            <img
+                src="https://via.placeholder.com/120"
+                width="120"
+                height="120"
+                class="rounded-circle shadow"
+            >
+
+        {% endif %}
+
+        <div>
+
+            <h1 class="fw-bold mb-2">
+
+                Welcome,
+
+                {{ student.user.username }}
+
+            </h1>
+
+            <p class="text-secondary mb-2">
+
+                {{ student.program }}
+
+            </p>
+
+            <span class="badge bg-primary px-3 py-2">
+
+                Student ID:
+
+                {{ student.student_id }}
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- QUICK ACTIONS -->
+
+<div class="row g-4 mb-5">
+
+    <div class="col-md-3">
+
+        <a
+            href="/available-courses/"
+            class="btn btn-primary w-100 py-3"
+        >
+
+            <i class="bi bi-book-fill"></i>
+
+            Register Courses
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/timetable/"
+            class="btn btn-success w-100 py-3"
+        >
+
+            <i class="bi bi-calendar-week-fill"></i>
+
+            Timetable
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/results/"
+            class="btn btn-warning w-100 py-3"
+        >
+
+            <i class="bi bi-bar-chart-fill"></i>
+
+            Results
+
+        </a>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <a
+            href="/profile/"
+            class="btn btn-info w-100 py-3"
+        >
+
+            <i class="bi bi-person-fill"></i>
+
+            My Profile
+
+        </a>
+
+    </div>
+    <div class="col-md-3">
+        <a
+            href="/transcript-pdf/"
+            class="btn btn-secondary w-100 py-3"
+        >
+
+            <i class="bi bi-file-earmark-pdf-fill"></i>
+
+            Download Transcript
+
+        </a>
+    </div>
+       
+
+</div>
+
+<!-- STATS -->
+
+<div class="row g-4 mb-5">
+
+    <!-- REGISTERED -->
+
+    <div class="col-md-4">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Registered Courses
+
+                </h6>
+
+                <h2 class="fw-bold">
+
+                    {{ enrollments.count }}
+
+                </h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GPA -->
+
+    <div class="col-md-4">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Current GPA
+
+                </h6>
+
+                <h2 class="fw-bold text-success">
+
+                    {{ cgpa }}
+
+                </h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DEPARTMENT -->
+
+    <div class="col-md-4">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h6 class="text-secondary">
+
+                    Department
+
+                </h6>
+
+                <h4 class="fw-bold">
+
+                    {{ student.department }}
+
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MAIN CONTENT -->
+
+<div class="row g-4">
+
+    <!-- AVAILABLE COURSES -->
+
+    <div class="col-lg-8">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+
+                    <div>
+
+                        <h3 class="fw-bold mb-1">
+
+                            Available Courses
+
+                        </h3>
+
+                        <p class="text-secondary mb-0">
+
+                            Register for available courses
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- SEARCH -->
+
+                <input
+                    type="text"
+                    id="courseSearch"
+                    class="form-control mb-4"
+                    placeholder="Search courses..."
+                >
+
+                <div class="row g-4" id="courseContainer">
+
+                    {% for offering in offerings %}
+
+                    <div class="col-md-6 course-card">
+
+                        <div class="card bg-dark border-0 h-100">
+
+                            <div class="card-body">
+
+                                <div class="d-flex justify-content-between mb-3">
+
+                                    <div>
+
+                                        <h5 class="fw-bold">
+
+                                            {{ offering.course.code }}
+
+                                        </h5>
+
+                                        <p class="text-secondary">
+
+                                            {{ offering.course.name }}
+
+                                        </p>
+
+                                    </div>
+
+                                    <span class="badge bg-primary h-25">
+
+                                        {{ offering.course.credits }} Credits
+
+                                    </span>
+
+                                </div>
+
+                                <div class="mb-2">
+
+                                    <strong>
+                                        Instructor:
+                                    </strong>
+
+                                    {% if offering.instructor %}
+
+                                        {{ offering.instructor.user.username }}
+
+                                    {% else %}
+
+                                        N/A
+
+                                    {% endif %}
+
+                                </div>
+
+                                <div class="mb-2">
+
+                                    <strong>
+                                        Semester:
+                                    </strong>
+
+                                    {{ offering.semester.name }}
+
+                                </div>
+
+                                <div class="mb-2">
+
+                                    <strong>
+                                        Schedule:
+                                    </strong>
+
+                                    {{ offering.schedule }}
+
+                                </div>
+
+                                <div class="mb-4">
+
+                                    <strong>
+                                        Room:
+                                    </strong>
+
+                                    {{ offering.room }}
+
+                                </div>
+
+                                <a
+                                    href="/register-course/{{ offering.id }}/"
+                                    class="btn btn-primary w-100"
+                                >
+
+                                    Register
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    {% empty %}
+
+                    <div class="col-12 text-center py-5">
+
+                        <i
+                            class="bi bi-journal-x text-secondary"
+                            style="font-size: 70px;"
+                        ></i>
+
+                        <h4 class="mt-4">
+
+                            No Available Courses
+
+                        </h4>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SIDE PANEL -->
+
+    <div class="col-lg-4">
+
+        <!-- ANNOUNCEMENTS -->
+
+        <div class="card shadow-lg border-0 mb-4">
+
+            <div class="card-body">
+
+                <h4 class="fw-bold mb-4">
+
+                    Announcements
+
+                </h4>
+
+                {% for announcement in announcements %}
+
+                <div class="mb-4 border-bottom pb-3">
+
+                    <h6 class="fw-bold">
+
+                        {{ announcement.title }}
+
+                    </h6>
+
+                    <p class="text-secondary mb-1">
+
+                        {{ announcement.message }}
+
+                    </p>
+
+                </div>
+
+                {% empty %}
+
+                <p class="text-secondary">
+
+                    No announcements available.
+
+                </p>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <!-- UPCOMING CLASSES -->
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body">
+
+                <h4 class="fw-bold mb-4">
+
+                    Upcoming Classes
+
+                </h4>
+
+                {% for enrollment in enrollments %}
+
+                <div class="mb-4">
+
+                    <h6 class="fw-bold">
+
+                        {{ enrollment.offering.course.code }}
+
+                    </h6>
+
+                    <p class="text-secondary mb-1">
+
+                        {{ enrollment.offering.schedule }}
+
+                    </p>
+
+                    <small>
+
+                        Room:
+
+                        {{ enrollment.offering.room }}
+
+                    </small>
+
+                </div>
+
+                {% empty %}
+
+                <p class="text-secondary">
+
+                    No upcoming classes.
+
+                </p>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SEARCH SCRIPT -->
+
+<script>
+
+const searchInput = document.getElementById("courseSearch");
+
+searchInput.addEventListener("keyup", function() {
+
+    let value = this.value.toLowerCase();
+
+    let cards = document.querySelectorAll(".course-card");
+
+    cards.forEach(card => {
+
+        let text = card.innerText.toLowerCase();
+
+        if (text.includes(value)) {
+
+            card.style.display = "block";
+
+        } else {
+
+            card.style.display = "none";
+
+        }
+
+    });
+
+});
+
+</script>
+
+{% endblock %}

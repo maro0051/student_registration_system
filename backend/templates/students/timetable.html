@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="mb-4">
+    My Timetable
+</h2>
+
+<div class="card shadow border-0">
+
+    <div class="card-body">
+
+        <table class="table table-hover">
+
+            <thead>
+
+                <tr>
+
+                    <th>Course</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                    <th>Room</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for enrollment in enrollments %}
+
+                <tr>
+
+                    <td>
+                        {{ enrollment.course.name }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.course.instructor }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.course.schedule }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.course.room }}
+                    </td>
+
+                </tr>
+
+                {% empty %}
+
+                <tr>
+
+                    <td colspan="4">
+
+                        No enrolled courses.
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+{% endblock %}

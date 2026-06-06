@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="mb-4">
+    My Enrollments
+</h1>
+
+<div class="card shadow border-0">
+
+    <div class="card-body">
+
+        <table class="table table-hover align-middle">
+
+            <thead>
+
+                <tr>
+
+                    <th>Course</th>
+
+                    <th>Professor</th>
+
+                    <th>Section</th>
+
+                    <th>Semester</th>
+
+                    <th>Schedule</th>
+
+                    <th>Status</th>
+
+                    <th>Midterm</th>
+
+                    <th>Final</th>
+
+                    <th>Grade</th>
+
+                    <th>GPA</th>
+
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for enrollment in enrollments %}
+
+                <tr>
+
+                    <td>
+
+                        {{ enrollment.course.code }}
+                        -
+                        {{ enrollment.course.name }}
+
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.offering %}
+
+                            {{ enrollment.offering.instructor.user.username }}
+
+                        {% else %}
+
+                            N/A
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.offering %}
+
+                            {{ enrollment.offering.section }}
+
+                        {% else %}
+
+                            N/A
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.semester %}
+
+                            {{ enrollment.semester.name }}
+
+                        {% else %}
+
+                            N/A
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.offering %}
+
+                            {{ enrollment.offering.schedule }}
+
+                        {% else %}
+
+                            N/A
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.status == "ENROLLED" %}
+
+                            <span class="badge bg-success">
+
+                                Enrolled
+
+                            </span>
+
+                        {% elif enrollment.status == "DROPPED" %}
+
+                            <span class="badge bg-danger">
+
+                                Dropped
+
+                            </span>
+
+                        {% else %}
+
+                            <span class="badge bg-secondary">
+
+                                {{ enrollment.status }}
+
+                            </span>
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+                        {{ enrollment.midterm_grade }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.final_grade }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.letter_grade }}
+                    </td>
+
+                    <td>
+                        {{ enrollment.gpa_points }}
+                    </td>
+
+                    <td>
+
+                        {% if enrollment.offering %}
+
+                            <a
+                                href="/enrollments/{{ enrollment.id }}/drop/"
+                                class="btn btn-danger btn-sm"
+                            >
+                                Drop
+                            </a>
+
+                        {% endif %}
+
+                    </td>
+
+                </tr>
+
+                {% empty %}
+
+                <tr>
+
+                    <td colspan="11">
+
+                        No enrollments found.
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- PAGE HEADER -->
+
+<div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div>
+
+        <h1 class="fw-bold mb-2">
+
+            My Enrollments
+
+        </h1>
+
+        <p class="text-secondary mb-0">
+
+            View and manage your registered courses
+
+        </p>
+
+    </div>
+
+    <a
+        href="/available-courses/"
+        class="btn btn-primary px-4 py-3"
+    >
+
+        <i class="bi bi-book-fill"></i>
+
+        Register New Course
+
+    </a>
+
+</div>
+
+<!-- ENROLLMENT TABLE -->
+
+<div class="card shadow-lg border-0">
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Course</th>
+
+                        <th>Professor</th>
+
+                        <th>Semester</th>
+
+                        <th>Schedule</th>
+
+                        <th>Status</th>
+
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for enrollment in enrollments %}
+
+                    <tr>
+
+                        <!-- COURSE -->
+
+                        <td>
+
+                            <div>
+
+                                <strong>
+
+                                    {{ enrollment.offering.course.code }}
+
+                                </strong>
+
+                                <br>
+
+                                <small class="text-secondary">
+
+                                    {{ enrollment.offering.course.name }}
+
+                                </small>
+
+                            </div>
+
+                        </td>
+
+                        <!-- PROFESSOR -->
+
+                        <td>
+
+                            {% if enrollment.offering.instructor %}
+
+                                {{ enrollment.offering.instructor.user.username }}
+
+                            {% else %}
+
+                                N/A
+
+                            {% endif %}
+
+                        </td>
+
+                        <!-- SEMESTER -->
+
+                        <td>
+
+                            {{ enrollment.offering.semester.name }}
+
+                        </td>
+
+                        <!-- SCHEDULE -->
+
+                        <td>
+
+                            {{ enrollment.offering.schedule }}
+
+                        </td>
+
+                        <!-- STATUS -->
+
+                        <td>
+
+                            {% if enrollment.status == "ENROLLED" %}
+
+                                <span class="badge bg-success px-3 py-2">
+
+                                    Enrolled
+
+                                </span>
+
+                            {% else %}
+
+                                <span class="badge bg-danger px-3 py-2">
+
+                                    Dropped
+
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+                        <!-- ACTIONS -->
+
+                        <td>
+
+                            {% if enrollment.status == "ENROLLED" %}
+
+                                <a
+                                    href="/enrollments/{{ enrollment.id }}/drop/"
+                                    class="btn btn-danger btn-sm"
+                                >
+
+                                    <i class="bi bi-trash-fill"></i>
+
+                                    Drop
+
+                                </a>
+
+                            {% else %}
+
+                                <button
+                                    class="btn btn-secondary btn-sm"
+                                    disabled
+                                >
+
+                                    Dropped
+
+                                </button>
+
+                            {% endif %}
+
+                        </td>
+
+                    </tr>
+
+                    {% empty %}
+
+                    <tr>
+
+                        <td colspan="6">
+
+                            <div class="text-center py-5">
+
+                                <i
+                                    class="bi bi-journal-x text-secondary"
+                                    style="font-size: 60px;"
+                                ></i>
+
+                                <h5 class="mt-4">
+
+                                    No Enrollments Found
+
+                                </h5>
+
+                                <p class="text-secondary">
+
+                                    You have not registered any courses yet.
+
+                                </p>
+
+                                <a
+                                    href="/available-courses/"
+                                    class="btn btn-primary mt-3"
+                                >
+
+                                    Register Courses
+
+                                </a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

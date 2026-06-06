@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+
+    <div class="col-lg-8">
+
+        <div class="card shadow-lg border-0">
+
+            <div class="card-body p-5">
+
+                <div class="text-center mb-5">
+
+                    {% if student.profile_picture %}
+
+                        <img
+                            src="{{ student.profile_picture.url }}"
+                            class="rounded-circle mb-3"
+                            width="140"
+                            height="140"
+                            style="object-fit: cover;"
+                        >
+
+                    {% else %}
+
+                        <img
+                            src="https://via.placeholder.com/140"
+                            class="rounded-circle mb-3"
+                        >
+
+                    {% endif %}
+
+                    <h2 class="fw-bold">
+                        Edit Profile
+                    </h2>
+
+                    <p class="text-secondary">
+                        Update your information
+                    </p>
+
+                </div>
+
+                <form
+                    method="POST"
+                    enctype="multipart/form-data"
+                >
+
+                    {% csrf_token %}
+
+                    <div class="mb-4">
+
+                        <label class="form-label">
+                            Address
+                        </label>
+
+                        {{ form.address }}
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label">
+                            Phone Number
+                        </label>
+
+                        {{ form.phone_number }}
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label class="form-label">
+                            Profile Picture
+                        </label>
+
+                        {{ form.profile_picture }}
+
+                    </div>
+
+                    <button class="btn btn-primary w-100 py-3">
+
+                        <i class="bi bi-check-circle-fill"></i>
+
+                        Save Changes
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
