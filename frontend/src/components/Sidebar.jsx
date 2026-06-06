@@ -36,6 +36,11 @@ function Sidebar() {
             path: "/admin/programs",
             icon: "📚"
         },
+        {
+            name: "Course Explorer",
+            path: "/admin/courseexplorer",
+            icon: "🎯"
+        },
 
         {
             name: "Courses",
@@ -77,6 +82,7 @@ function Sidebar() {
             path: "/admin/reports",
             icon: "📊"
         }
+
 
     ];
 

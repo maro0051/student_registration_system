@@ -34,6 +34,7 @@ import EditEnrollment from "./pages/admin/enrollments/EditEnrollment";
 import Departments from "./pages/admin/departments/Departments";
 import CreateDepartment from "./pages/admin/departments/CreateDepartment";
 import EditDepartment from "./pages/admin/departments/EditDepartment";
+import CourseExplorer from "./pages/admin/CourseExplorer";
 
 import RegisterCourse from "./pages/student/RegisterCourse";
 import Timetable from "./pages/student/Timetable";
@@ -581,6 +582,15 @@ function App() {
                             <CreateNotification />
                         </ProtectedRoute>
                     }
+                />
+                <Route
+                    path="/admin/courseexplorer"
+                    element={
+                        <ProtectedRoute allowedRole="ADMIN">
+                            <CourseExplorer />
+                        </ProtectedRoute>
+                    }
+
                 />
 
                 {/* 404 */}

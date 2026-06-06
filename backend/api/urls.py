@@ -347,6 +347,16 @@ path(
     AdminActivityLogsAPIView.as_view()
 ),
 
+#PROGRAM
+path(
+    "departments/<int:department_id>/programs/",
+    DepartmentProgramsAPIView.as_view()
+),
+
+path(
+    "programs/<int:program_id>/courses/",
+    ProgramCoursesAPIView.as_view()
+),
 
 
 

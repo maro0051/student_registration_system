@@ -74,3 +74,7 @@ from .admin_report_export_views import*
 from .admin_report_pdf_views import *
 from .admin_activity_logs_views import *
 
+
+from .department_programs_views import *
+from .program_courses_views import *
+
