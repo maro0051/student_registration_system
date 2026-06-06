@@ -18,6 +18,7 @@ from .student_available_courses_views import *
 from .student_register_course_views import*
 from .student_attendance_views import*
 
+
 from .staff_dashboard_views import *
 from .staff_profile_views import *
 from .staff_update_profile_views import *
@@ -25,6 +26,7 @@ from .staff_classes_views import *
 from .staff_attendance_views import *
 from .staff_grades_views import *
 from .staff_attendance_report_views import *
+from .staff_timetable_views import *
 
 from .admin_students_views import *
 from .admin_student_detail_views import *

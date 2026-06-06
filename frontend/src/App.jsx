@@ -48,6 +48,7 @@ import StaffGrades from "./pages/staff/StaffGrades";
 import StaffProfile from "./pages/staff/StaffProfile";
 import UpdateStaffProfile from "./pages/staff/UpdateStaffProfile";
 import AttendanceReport from "./pages/staff/AttendanceReport";
+import StaffTimetable from "./pages/staff/StaffTimetable";
 
 import Semesters from "./pages/admin/semesters/Semesters";
 import CreateSemester from "./pages/admin/semesters/CreateSemester";
@@ -73,6 +74,7 @@ import CreateNotification from "./pages/admin/notifications/CreateNotification";
 import AutoLogout from "./components/AutoLogout";
 
 import Profile from "./pages/student/Profile";
+
 
 function App() {
 
@@ -258,6 +260,15 @@ function App() {
                             <UpdateStaffProfile />
                         </ProtectedRoute>
                     }
+                />
+                <Route
+                    path="/staff/stafftimetable"
+                    element={
+                        <ProtectedRoute allowedRole="STAFF">
+                            <StaffTimetable />
+                        </ProtectedRoute>
+                    }
+                
                 />
 
                 {/* Admin Dashboard */}

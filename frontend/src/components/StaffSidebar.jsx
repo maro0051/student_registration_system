@@ -143,15 +143,15 @@ function StaffSidebar() {
 
                     <Link
 
-                        to="/staff/grades"
+                        to="/staff/stafftimetable"
 
                         className={`
                             nav-link
                             text-white
                             ${
-                                location.pathname.startsWith(
-                                    "/staff/grades"
-                                )
+                                location.pathname ===
+                                    "/staff/stafftimetable"
+                                
 
                                 ?
 
@@ -166,7 +166,7 @@ function StaffSidebar() {
 
                     >
 
-                        📝 Grades
+                        📝 Timetable
 
                     </Link>
 
@@ -179,8 +179,9 @@ function StaffSidebar() {
                         to="/login"
 
                         className="
-                            nav-link
-                            text-danger
+                            btn
+                            btn-danger
+                            w-100
                         "
 
                     >

@@ -152,6 +152,10 @@ urlpatterns = [
         StaffGradesAPIView.as_view(),
         
     ),
+    path(
+        "staff/timetable/",
+        StaffTimetableAPIView.as_view(),
+    ),
 
 
     #ADMIN
