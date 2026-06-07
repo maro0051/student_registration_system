@@ -24,11 +24,6 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
-Kivy==2.3.1
-Kivy-Garden==0.1.5
-kivy_deps.angle==0.4.0
-kivy_deps.glew==0.3.1
-kivy_deps.sdl2==0.8.0
 MarkupSafe==3.0.2
 mysqlclient==2.2.8
 packaging==26.2
@@ -38,9 +33,9 @@ pycparser==3.0
 pycryptodome==3.23.0
 Pygments==2.19.2
 PyJWT==2.13.0
-pypiwin32==223
+
 python-dotenv==1.1.1
-pywin32==311
+
 PyYAML==6.0.3
 qrcode==8.2
 referencing==0.37.0
