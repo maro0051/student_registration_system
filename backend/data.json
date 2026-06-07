@@ -1,0 +1,5672 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-09T21:50:03.549Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-09T23:47:41.789Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Computer Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-09T23:48:12.683Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Business Administration",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-09T23:48:31.298Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Software Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-09T23:48:42.751Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Health Sciences",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-09T23:49:00.569Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-09T23:50:10.628Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Dr. Smith",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-10T00:35:48.187Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Prof. Johnson",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-10T00:36:31.816Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Prof. Lee",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-10T00:37:23.436Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Dr. Wilson",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-10T00:37:29.349Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Dr. Wilson",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-10T00:42:46.648Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Instructor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-10T00:44:22.585Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "CST202 - Web development",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-10T00:45:42.881Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "BUS101 - Principles of Management",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-10T00:48:34.372Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "SWE301 - Software Architecture",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-10T00:51:48.723Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "HLT110 - Human Anatomy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-10T02:21:12.695Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-10T02:22:06.406Z",
+    "user": 3,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Midterm Exams Begin Next Week",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-10T02:22:53.901Z",
+    "user": 3,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Course Registration Open",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-10T02:23:02.297Z",
+    "user": 3,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Course Registration Open",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-10T02:37:56.057Z",
+    "user": 3,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Python Final Project",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-10T02:38:25.607Z",
+    "user": 3,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "john - CST101 - Python Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-11T17:40:12.726Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "teacher1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-11T17:41:31.582Z",
+    "user": 3,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "teacher1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-11T17:42:22.821Z",
+    "user": 3,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-11T17:43:08.873Z",
+    "user": 3,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "CST202 - Database Systems",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-05-11T17:44:22.709Z",
+    "user": 3,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Fall 2026",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-05-11T17:44:58.685Z",
+    "user": 3,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "winter 2027",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-05-11T17:45:46.750Z",
+    "user": 3,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "spring 2027",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-05-11T17:45:54.168Z",
+    "user": 3,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Fall 2026",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-05-11T17:46:33.653Z",
+    "user": 3,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": "teacher1 - CST101 - Python Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-05-11T19:12:41.631Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "john - BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Semester\", \"Midterm grade\", \"Final grade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-05-11T19:13:19.240Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "john - HLT110 - Human Anatomy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Semester\", \"Midterm grade\", \"Final grade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-05-11T19:13:27.265Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "john - BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-05-11T19:13:43.800Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "john - CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Midterm grade\", \"Final grade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-05-11T19:28:54.038Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "john - BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Final grade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-05-11T19:29:31.078Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "john - BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-05-14T04:01:24.297Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Computer Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-05-14T04:03:00.947Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "john",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-05-14T13:04:57.837Z",
+    "user": 3,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-05-14T13:06:06.090Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "HLT110 - Human Anatomy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Semester\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-05-14T13:08:28.723Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-05-14T13:42:50.826Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\", \"Semester\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-05-14T13:43:12.291Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-05-14T13:45:08.576Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-05-14T13:45:45.426Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "john",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-05-14T13:53:47.146Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-05-14T14:19:54.755Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-05-14T14:20:33.540Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-05-14T14:21:52.930Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-05-14T14:32:16.710Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-05-25T01:25:46.439Z",
+    "user": 3,
+    "content_type": 22,
+    "object_id": "1",
+    "object_repr": "Computer Science - Semester 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-05-25T01:26:04.127Z",
+    "user": 3,
+    "content_type": 22,
+    "object_id": "2",
+    "object_repr": "Computer Science - Semester 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-05-28T22:21:00.203Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Health Sciences",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-05-28T22:22:37.857Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Advanced technologies",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-05-28T22:23:03.095Z",
+    "user": 3,
+    "content_type": 22,
+    "object_id": "1",
+    "object_repr": "Computer Science - Semester 1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-05-28T22:23:19.607Z",
+    "user": 3,
+    "content_type": 22,
+    "object_id": "2",
+    "object_repr": "Computer Science - Semester 1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-05-28T22:24:06.792Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "CST202 - Web development",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\", \"Semester\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-05-28T22:24:17.541Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-05-28T22:24:35.249Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Health Sciences",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-05-28T22:26:06.826Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "2",
+    "object_repr": "Nursing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-05-28T22:27:22.025Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Software Engineering",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-05-28T22:28:27.316Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Sciences",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-05-28T22:29:22.713Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Business",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-05-28T22:29:30.467Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Sciences",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-05-28T22:30:50.856Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "HLT110 - Human Anatomy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-05-28T22:32:13.170Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "3",
+    "object_repr": "International trades",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-05-28T22:32:38.784Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "BUS101 - Principles of Management",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\", \"Semester\", \"Credits\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-05-28T22:32:51.434Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "CST202 - Web development",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-05-28T22:32:57.823Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-05-28T22:33:24.128Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "CST101 - Python Programming - A",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-05-28T22:33:51.594Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "HLT110 - Human Anatomy",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-05-28T22:37:16.796Z",
+    "user": 3,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "teacher1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-05-28T22:43:53.142Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Mike",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-05-28T22:44:09.377Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Mike",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Program\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-05-28T22:44:20.024Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "john",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-05-28T22:44:30.434Z",
+    "user": 3,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "teacher1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-05-28T23:16:12.020Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Business Administration",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-05-28T23:16:34.827Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-05-28T23:17:26.266Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Information technologies",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-05-28T23:19:59.426Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Business Administration",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-05-28T23:21:35.443Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Business",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-05-28T23:21:39.721Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Business Administration",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-05-28T23:21:41.943Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-05-28T23:21:50.864Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Sciences",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-05-28T23:21:55.742Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Information technologies",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-05-28T23:22:04.105Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Business Administration",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-05-28T23:24:31.861Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Business Administration",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-05-28T23:25:52.698Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "4",
+    "object_repr": "Bachelor of Business Administration",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Code\", \"Description\", \"Duration years\", \"Department\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-05-28T23:27:03.791Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "BUS101 - Introduction to Business",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-05-28T23:27:47.587Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "mary_student",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-05-28T23:36:34.449Z",
+    "user": 3,
+    "content_type": 20,
+    "object_id": "26",
+    "object_repr": "Project Management",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-05-28T23:46:56.475Z",
+    "user": 3,
+    "content_type": 21,
+    "object_id": "2",
+    "object_repr": "CS101 - Introduction to Programming - 12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-05-28T23:50:07.495Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "CS101 - Introduction to Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Instructor\", \"Program\", \"Schedule\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-05-29T03:07:14.395Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "71",
+    "object_repr": "ENV301 - Environmental Management",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Instructor\", \"Semester\", \"Schedule\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-05-29T03:12:01.587Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "20",
+    "object_repr": "olivia_white",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\", \"Last login\", \"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-05-29T03:13:34.987Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "19",
+    "object_repr": "michael_clark",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\", \"Last login\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-05-29T03:15:44.682Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "alex_student",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-05-29T03:17:59.718Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Computer Science",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "10odtdj645awmgxtuo1f32a6h59n8076",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pACIwMu3fcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXERIE6_W6T04LaDfKd2m2Wa27pMUe6KPGiX45z5eT3cv4NKvX5rLmgAE_gzORii0WgJEKw3Uedo0Q6GUgbjtCWNuaDz6JQq3jIqxSTeH8LbNv0:1wMWKO:LKQ9s9byZIHAbjq3hBb1GiA9UMSyX4M-NREt_DkIWgE",
+    "expire_date": "2026-05-25T19:30:08.723Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "jti": "869565460315471cbc29c2353abeabae",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDYzODA5MSwiaWF0IjoxNzgwNTUxNjkxLCJqdGkiOiI4Njk1NjU0NjAzMTU0NzFjYmMyOWMyMzUzYWJlYWJhZSIsInVzZXJfaWQiOiIzIn0.341N5AynqKKai_tFX8it1YbFqiATVDq2aTgl21DIRmc",
+    "created_at": "2026-06-04T05:41:31.358Z",
+    "expires_at": "2026-06-05T05:41:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 2,
+  "fields": {
+    "user": 23,
+    "jti": "675e66b53de348e9b30556abf1ae04f6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDYzODEwNCwiaWF0IjoxNzgwNTUxNzA0LCJqdGkiOiI2NzVlNjZiNTNkZTM0OGU5YjMwNTU2YWJmMWFlMDRmNiIsInVzZXJfaWQiOiIyMyJ9.Y49Y_JGLTLgy3PRr16wSJjVZWhOb9O7lnjdeCjlU3NQ",
+    "created_at": "2026-06-04T05:41:44.757Z",
+    "expires_at": "2026-06-05T05:41:44Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 3,
+  "fields": {
+    "user": 23,
+    "jti": "21cafd1429aa4abcaf8fe94ed32663a3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDM5NCwiaWF0IjoxNzgwNTUzOTk0LCJqdGkiOiIyMWNhZmQxNDI5YWE0YWJjYWY4ZmU5NGVkMzI2NjNhMyIsInVzZXJfaWQiOiIyMyJ9.ZoQQAM0bX-_YlXW9oXZ8XfFT84qm73tHVDqia4breqw",
+    "created_at": "2026-06-04T06:19:54.923Z",
+    "expires_at": "2026-06-05T06:19:54Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "jti": "e9e6e5b1429e4cb59dfe4afe457d63a2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDM5NiwiaWF0IjoxNzgwNTUzOTk2LCJqdGkiOiJlOWU2ZTViMTQyOWU0Y2I1OWRmZTRhZmU0NTdkNjNhMiIsInVzZXJfaWQiOiIzIn0.JLg9cxRDvcfhKhNalT8lx8KkxPc4UAzOAXiIHLVB6pw",
+    "created_at": "2026-06-04T06:19:56.184Z",
+    "expires_at": "2026-06-05T06:19:56Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 5,
+  "fields": {
+    "user": 23,
+    "jti": "fa1ed7b790854b44b2e45e5f62cbe9c8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDQxMiwiaWF0IjoxNzgwNTU0MDEyLCJqdGkiOiJmYTFlZDdiNzkwODU0YjQ0YjJlNDVlNWY2MmNiZTljOCIsInVzZXJfaWQiOiIyMyJ9.OyY4B1PzuzeqXuEPRUDW-N_2zHLwNL4MZdl8nug5Kac",
+    "created_at": "2026-06-04T06:20:12.795Z",
+    "expires_at": "2026-06-05T06:20:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 6,
+  "fields": {
+    "user": 23,
+    "jti": "270a5d42a5c542798d6c40c255724d9b",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDQyMCwiaWF0IjoxNzgwNTU0MDIwLCJqdGkiOiIyNzBhNWQ0MmE1YzU0Mjc5OGQ2YzQwYzI1NTcyNGQ5YiIsInVzZXJfaWQiOiIyMyJ9.H5KOE-UWeCcBCynM1y4gvCxebEryZt-jGfHmhoha8j8",
+    "created_at": "2026-06-04T06:20:20.995Z",
+    "expires_at": "2026-06-05T06:20:20Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 7,
+  "fields": {
+    "user": 23,
+    "jti": "e6759a9e261042f9957f178e94a26097",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDQzOSwiaWF0IjoxNzgwNTU0MDM5LCJqdGkiOiJlNjc1OWE5ZTI2MTA0MmY5OTU3ZjE3OGU5NGEyNjA5NyIsInVzZXJfaWQiOiIyMyJ9.AaF739s19mv7aU8QksHDRSQMnMx8z6ojpe-9CA03V_g",
+    "created_at": "2026-06-04T06:20:39.072Z",
+    "expires_at": "2026-06-05T06:20:39Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 8,
+  "fields": {
+    "user": 23,
+    "jti": "bfe08ad26dfb4bb8957ed9ae7d6726d6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MDg2OSwiaWF0IjoxNzgwNTU0NDY5LCJqdGkiOiJiZmUwOGFkMjZkZmI0YmI4OTU3ZWQ5YWU3ZDY3MjZkNiIsInVzZXJfaWQiOiIyMyJ9.cFlTZiR2G2c-76PY9NILHUYA7rLE_cWCR76P4hm6Vmc",
+    "created_at": "2026-06-04T06:27:49.929Z",
+    "expires_at": "2026-06-05T06:27:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 9,
+  "fields": {
+    "user": 23,
+    "jti": "7786883e8a3b4fa592adcef18da38162",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY0MTgzNiwiaWF0IjoxNzgwNTU1NDM2LCJqdGkiOiI3Nzg2ODgzZThhM2I0ZmE1OTJhZGNlZjE4ZGEzODE2MiIsInVzZXJfaWQiOiIyMyJ9.CB6wka9r3ZckctnmcCVQSgDfNU_uErw2qnGAzv7uEyM",
+    "created_at": "2026-06-04T06:43:56.416Z",
+    "expires_at": "2026-06-05T06:43:56Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 10,
+  "fields": {
+    "user": 23,
+    "jti": "5e60994704174ffe90d97ade66e8a89c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NDQxOSwiaWF0IjoxNzgwNTc4MDE5LCJqdGkiOiI1ZTYwOTk0NzA0MTc0ZmZlOTBkOTdhZGU2NmU4YTg5YyIsInVzZXJfaWQiOiIyMyJ9.iR2kDritqjSRsmLD8s0dsHgJzwby_36g2jCHd1aNusY",
+    "created_at": "2026-06-04T13:00:19.324Z",
+    "expires_at": "2026-06-05T13:00:19Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 11,
+  "fields": {
+    "user": 23,
+    "jti": "f96f181788124a2d8b2cd5a1c4e708f6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NDY0MywiaWF0IjoxNzgwNTc4MjQzLCJqdGkiOiJmOTZmMTgxNzg4MTI0YTJkOGIyY2Q1YTFjNGU3MDhmNiIsInVzZXJfaWQiOiIyMyJ9.xY8F379iHglsIE7lylbNWqqta5geNVGYhEJaiRoRoXM",
+    "created_at": "2026-06-04T13:04:03.997Z",
+    "expires_at": "2026-06-05T13:04:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 12,
+  "fields": {
+    "user": 23,
+    "jti": "2aa6cd23f1144025a9f5ba77265027d8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NTk2NSwiaWF0IjoxNzgwNTc5NTY1LCJqdGkiOiIyYWE2Y2QyM2YxMTQ0MDI1YTlmNWJhNzcyNjUwMjdkOCIsInVzZXJfaWQiOiIyMyJ9.mPuUqlzASPC1SKyKtzoj0xvsQe8rKs9tOYJvDGsY0E0",
+    "created_at": "2026-06-04T13:26:05.713Z",
+    "expires_at": "2026-06-05T13:26:05Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 13,
+  "fields": {
+    "user": 23,
+    "jti": "41b0e761af014240a56cae77f8f043e5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NTk2NSwiaWF0IjoxNzgwNTc5NTY1LCJqdGkiOiI0MWIwZTc2MWFmMDE0MjQwYTU2Y2FlNzdmOGYwNDNlNSIsInVzZXJfaWQiOiIyMyJ9.EYb7bkC2UXz-bElek4fSQ4U28eNgDM-czkIlL7hhCm4",
+    "created_at": "2026-06-04T13:26:05.716Z",
+    "expires_at": "2026-06-05T13:26:05Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 14,
+  "fields": {
+    "user": 23,
+    "jti": "84f1f7d510a8409f808ea616302e617d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NTk3NSwiaWF0IjoxNzgwNTc5NTc1LCJqdGkiOiI4NGYxZjdkNTEwYTg0MDlmODA4ZWE2MTYzMDJlNjE3ZCIsInVzZXJfaWQiOiIyMyJ9.xvVp46B3M4iP_SQErWjWhrByh-2ECyQFN2fJGvXMmHo",
+    "created_at": "2026-06-04T13:26:15.641Z",
+    "expires_at": "2026-06-05T13:26:15Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 15,
+  "fields": {
+    "user": 23,
+    "jti": "41e3cce2c2e04342a62842a2d74e0151",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2NjAyNywiaWF0IjoxNzgwNTc5NjI3LCJqdGkiOiI0MWUzY2NlMmMyZTA0MzQyYTYyODQyYTJkNzRlMDE1MSIsInVzZXJfaWQiOiIyMyJ9.8SiGBVq3GZHwxFygbFFozlenvWINWx98K7tCKy0M5wY",
+    "created_at": "2026-06-04T13:27:07.725Z",
+    "expires_at": "2026-06-05T13:27:07Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 16,
+  "fields": {
+    "user": 23,
+    "jti": "9185ed4d30e74c41a68cfbdbe4eb8a8b",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2Njk3NSwiaWF0IjoxNzgwNTgwNTc1LCJqdGkiOiI5MTg1ZWQ0ZDMwZTc0YzQxYTY4Y2ZiZGJlNGViOGE4YiIsInVzZXJfaWQiOiIyMyJ9.leWpG9rgbLNzVjrMnNN9ng5UtMUCzXUITD0huBXUgno",
+    "created_at": "2026-06-04T13:42:55.816Z",
+    "expires_at": "2026-06-05T13:42:55Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 17,
+  "fields": {
+    "user": 23,
+    "jti": "c4a0d6dbd5e44ad0a2a62b353bb1590e",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2Njk3NSwiaWF0IjoxNzgwNTgwNTc1LCJqdGkiOiJjNGEwZDZkYmQ1ZTQ0YWQwYTJhNjJiMzUzYmIxNTkwZSIsInVzZXJfaWQiOiIyMyJ9.zlqHXGhVWfFWfShJgOrTkRywNignTVD1vqaFX7SdVhM",
+    "created_at": "2026-06-04T13:42:55.806Z",
+    "expires_at": "2026-06-05T13:42:55Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 18,
+  "fields": {
+    "user": 23,
+    "jti": "7a56e7ae274a4fba83dfcf8e5d835b3a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2Nzk5MSwiaWF0IjoxNzgwNTgxNTkxLCJqdGkiOiI3YTU2ZTdhZTI3NGE0ZmJhODNkZmNmOGU1ZDgzNWIzYSIsInVzZXJfaWQiOiIyMyJ9.2a991KFJw4HLyJfLUlVW2VGjj690F5suqvGnldBtIeI",
+    "created_at": "2026-06-04T13:59:51.814Z",
+    "expires_at": "2026-06-05T13:59:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 19,
+  "fields": {
+    "user": 3,
+    "jti": "592d02e12c9c4619a6fa2ab3a5171da6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2ODM5NywiaWF0IjoxNzgwNTgxOTk3LCJqdGkiOiI1OTJkMDJlMTJjOWM0NjE5YTZmYTJhYjNhNTE3MWRhNiIsInVzZXJfaWQiOiIzIn0.ww3vTpoUUV6OM4H3gfM98YCCT8tdma94Ew8astPpALw",
+    "created_at": "2026-06-04T14:06:37.468Z",
+    "expires_at": "2026-06-05T14:06:37Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 20,
+  "fields": {
+    "user": 23,
+    "jti": "57d2639f100f4965a4242d05f3dafe7a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2ODU3NywiaWF0IjoxNzgwNTgyMTc3LCJqdGkiOiI1N2QyNjM5ZjEwMGY0OTY1YTQyNDJkMDVmM2RhZmU3YSIsInVzZXJfaWQiOiIyMyJ9.LC_wAHTAtG-eGw7Itmx-B3yauDfQmUCNIUczgbGkNdM",
+    "created_at": "2026-06-04T14:09:37.013Z",
+    "expires_at": "2026-06-05T14:09:37Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 21,
+  "fields": {
+    "user": 23,
+    "jti": "67c1b47daecc4dd1adaa76415f09e553",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2OTE2MSwiaWF0IjoxNzgwNTgyNzYxLCJqdGkiOiI2N2MxYjQ3ZGFlY2M0ZGQxYWRhYTc2NDE1ZjA5ZTU1MyIsInVzZXJfaWQiOiIyMyJ9.-A-cqLbANs7TY5_mRu0MQikoZl_4324vvR5cFFRzAsY",
+    "created_at": "2026-06-04T14:19:21.354Z",
+    "expires_at": "2026-06-05T14:19:21Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 22,
+  "fields": {
+    "user": 23,
+    "jti": "266ba4b8597449a2ac996c881958a1ac",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY2OTYyNCwiaWF0IjoxNzgwNTgzMjI0LCJqdGkiOiIyNjZiYTRiODU5NzQ0OWEyYWM5OTZjODgxOTU4YTFhYyIsInVzZXJfaWQiOiIyMyJ9.GQ_ZG7OcOsLCXhMtMNjlLPvhVOHZywXizk2JnhbZo58",
+    "created_at": "2026-06-04T14:27:04.510Z",
+    "expires_at": "2026-06-05T14:27:04Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 23,
+  "fields": {
+    "user": 23,
+    "jti": "941e9e152ed744e7817a41d1e80493a3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MDI2OCwiaWF0IjoxNzgwNTgzODY4LCJqdGkiOiI5NDFlOWUxNTJlZDc0NGU3ODE3YTQxZDFlODA0OTNhMyIsInVzZXJfaWQiOiIyMyJ9.FNQLmcGl5JG6jzjYu2WhN5rv1iQlLvcyQS7ydomLQGo",
+    "created_at": "2026-06-04T14:37:48.144Z",
+    "expires_at": "2026-06-05T14:37:48Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 24,
+  "fields": {
+    "user": 23,
+    "jti": "601967f1046547418e5954fc24b0a298",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MDI2OCwiaWF0IjoxNzgwNTgzODY4LCJqdGkiOiI2MDE5NjdmMTA0NjU0NzQxOGU1OTU0ZmMyNGIwYTI5OCIsInVzZXJfaWQiOiIyMyJ9.NXC-cOz9MtLY1AuQwU07j-7jLxmdC_AgJws0TgjO6jo",
+    "created_at": "2026-06-04T14:37:48.148Z",
+    "expires_at": "2026-06-05T14:37:48Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 25,
+  "fields": {
+    "user": 23,
+    "jti": "946363f8c77b47858c2575ad052d0189",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MDk1NSwiaWF0IjoxNzgwNTg0NTU1LCJqdGkiOiI5NDYzNjNmOGM3N2I0Nzg1OGMyNTc1YWQwNTJkMDE4OSIsInVzZXJfaWQiOiIyMyJ9.rcM7wJ4j6q8-doTR_kJ5l4g_0J9M7k5gMelbKAv38Mw",
+    "created_at": "2026-06-04T14:49:15.586Z",
+    "expires_at": "2026-06-05T14:49:15Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 26,
+  "fields": {
+    "user": 23,
+    "jti": "52bed6187bdf41a2929714a30162cd7f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MTU5MSwiaWF0IjoxNzgwNTg1MTkxLCJqdGkiOiI1MmJlZDYxODdiZGY0MWEyOTI5NzE0YTMwMTYyY2Q3ZiIsInVzZXJfaWQiOiIyMyJ9.N__GdBb6xUhgRDDjgVn_Plo5-LfJjrvWeZJgWVCrJ1k",
+    "created_at": "2026-06-04T14:59:51.544Z",
+    "expires_at": "2026-06-05T14:59:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 27,
+  "fields": {
+    "user": 23,
+    "jti": "6dcf4b5039824ec1a9f99217e2ca44c5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MjQxNSwiaWF0IjoxNzgwNTg2MDE1LCJqdGkiOiI2ZGNmNGI1MDM5ODI0ZWMxYTlmOTkyMTdlMmNhNDRjNSIsInVzZXJfaWQiOiIyMyJ9.QYxOMGITB8wKY-MgjaWVQiOt650PFFomJGvFr11yMDQ",
+    "created_at": "2026-06-04T15:13:35.302Z",
+    "expires_at": "2026-06-05T15:13:35Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 28,
+  "fields": {
+    "user": 23,
+    "jti": "87f191ae76914987a891a399afa08fac",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MzE2OCwiaWF0IjoxNzgwNTg2NzY4LCJqdGkiOiI4N2YxOTFhZTc2OTE0OTg3YTg5MWEzOTlhZmEwOGZhYyIsInVzZXJfaWQiOiIyMyJ9.HaMO6RPSlrULMCzvWRAs53tcbT-7xwf322hHaIWM6cY",
+    "created_at": "2026-06-04T15:26:08.586Z",
+    "expires_at": "2026-06-05T15:26:08Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 29,
+  "fields": {
+    "user": 3,
+    "jti": "97ac7b17f7b645a796ce6e98ce58dc26",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3MzcxMSwiaWF0IjoxNzgwNTg3MzExLCJqdGkiOiI5N2FjN2IxN2Y3YjY0NWE3OTZjZTZlOThjZTU4ZGMyNiIsInVzZXJfaWQiOiIzIn0.8q4U5lhFBs0TT9ZtO7k-6Cmh5DhZJ2-N_jgs7mIdX18",
+    "created_at": "2026-06-04T15:35:11.566Z",
+    "expires_at": "2026-06-05T15:35:11Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 30,
+  "fields": {
+    "user": 23,
+    "jti": "0f46ffe905284e9f84881041e4fb7762",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3Mzc2NiwiaWF0IjoxNzgwNTg3MzY2LCJqdGkiOiIwZjQ2ZmZlOTA1Mjg0ZTlmODQ4ODEwNDFlNGZiNzc2MiIsInVzZXJfaWQiOiIyMyJ9.rQBkJ9iil0zVeenqc7eBqHKDvzXtZ0YXuLbQfluYAE0",
+    "created_at": "2026-06-04T15:36:06.320Z",
+    "expires_at": "2026-06-05T15:36:06Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 31,
+  "fields": {
+    "user": 23,
+    "jti": "d191ed74b3f0483eae8ae923fb6e26b1",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NDI1NCwiaWF0IjoxNzgwNTg3ODU0LCJqdGkiOiJkMTkxZWQ3NGIzZjA0ODNlYWU4YWU5MjNmYjZlMjZiMSIsInVzZXJfaWQiOiIyMyJ9.1epWWWZABOvrLNQQc9EuuN9_Cyg4poXF6MSWOljKurk",
+    "created_at": "2026-06-04T15:44:14.268Z",
+    "expires_at": "2026-06-05T15:44:14Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 32,
+  "fields": {
+    "user": 23,
+    "jti": "1f4aba8f2b7d40f585e58b2b72229ee2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NDMwNCwiaWF0IjoxNzgwNTg3OTA0LCJqdGkiOiIxZjRhYmE4ZjJiN2Q0MGY1ODVlNThiMmI3MjIyOWVlMiIsInVzZXJfaWQiOiIyMyJ9.LqLhyIo41lS6fQKFfBYteNXWvD48XvRNFL3fgtvT5PE",
+    "created_at": "2026-06-04T15:45:04.153Z",
+    "expires_at": "2026-06-05T15:45:04Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 33,
+  "fields": {
+    "user": 23,
+    "jti": "17f71f64ed8845888fc7a284155443ec",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NDQ4OCwiaWF0IjoxNzgwNTg4MDg4LCJqdGkiOiIxN2Y3MWY2NGVkODg0NTg4OGZjN2EyODQxNTU0NDNlYyIsInVzZXJfaWQiOiIyMyJ9.8kMOTfGlOZ5khRlj1gzOmIivrUHBBsiiMkf2pkLrMc4",
+    "created_at": "2026-06-04T15:48:08.955Z",
+    "expires_at": "2026-06-05T15:48:08Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 34,
+  "fields": {
+    "user": 23,
+    "jti": "e9578cf051934a2a8bef8f4ab4bf89c7",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NDY4MCwiaWF0IjoxNzgwNTg4MjgwLCJqdGkiOiJlOTU3OGNmMDUxOTM0YTJhOGJlZjhmNGFiNGJmODljNyIsInVzZXJfaWQiOiIyMyJ9.RY9uR4M5-xaOvsBa70Xfx2ysq_aPhFCuTg333RJ5G9w",
+    "created_at": "2026-06-04T15:51:20.135Z",
+    "expires_at": "2026-06-05T15:51:20Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 35,
+  "fields": {
+    "user": 23,
+    "jti": "590af405b69a4f0ca61bbf3fc6672e9d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NDc5MywiaWF0IjoxNzgwNTg4MzkzLCJqdGkiOiI1OTBhZjQwNWI2OWE0ZjBjYTYxYmJmM2ZjNjY3MmU5ZCIsInVzZXJfaWQiOiIyMyJ9.jSqKyp9N34qCqugImxmM36meqWGawlrHN3FVx8BiUjI",
+    "created_at": "2026-06-04T15:53:13.072Z",
+    "expires_at": "2026-06-05T15:53:13Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 36,
+  "fields": {
+    "user": 23,
+    "jti": "da1c4d484bcf40c7b24a4a8d0db46e62",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NTQ5MSwiaWF0IjoxNzgwNTg5MDkxLCJqdGkiOiJkYTFjNGQ0ODRiY2Y0MGM3YjI0YTRhOGQwZGI0NmU2MiIsInVzZXJfaWQiOiIyMyJ9.6yFxthLm73S2L-XmX8hWwX-4AiVZ-9Uiru04Lvomtis",
+    "created_at": "2026-06-04T16:04:51.295Z",
+    "expires_at": "2026-06-05T16:04:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 37,
+  "fields": {
+    "user": 23,
+    "jti": "62e5833474be48feb858905d508eb3e9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NTQ5MSwiaWF0IjoxNzgwNTg5MDkxLCJqdGkiOiI2MmU1ODMzNDc0YmU0OGZlYjg1ODkwNWQ1MDhlYjNlOSIsInVzZXJfaWQiOiIyMyJ9._x5qH8oyt2sUDK8BKmUdBSt-l39AnxeM1GsDfhSbTsU",
+    "created_at": "2026-06-04T16:04:51.296Z",
+    "expires_at": "2026-06-05T16:04:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 38,
+  "fields": {
+    "user": 3,
+    "jti": "4ce83998b6c74384ba9696d3f1b29464",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NTg1MCwiaWF0IjoxNzgwNTg5NDUwLCJqdGkiOiI0Y2U4Mzk5OGI2Yzc0Mzg0YmE5Njk2ZDNmMWIyOTQ2NCIsInVzZXJfaWQiOiIzIn0.bPv_IHvd6Sx484E1JnM9exF9lqW7lM4N0BNvxzrqFZQ",
+    "created_at": "2026-06-04T16:10:50.482Z",
+    "expires_at": "2026-06-05T16:10:50Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 39,
+  "fields": {
+    "user": 23,
+    "jti": "94b2a422aa0b42f987bcc459d69f6b5d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NTg2OCwiaWF0IjoxNzgwNTg5NDY4LCJqdGkiOiI5NGIyYTQyMmFhMGI0MmY5ODdiY2M0NTlkNjlmNmI1ZCIsInVzZXJfaWQiOiIyMyJ9.KwE6njJAyDfaD8CX6NYAkRZZ03-z2VZfo6aHwaX7Ycw",
+    "created_at": "2026-06-04T16:11:08.328Z",
+    "expires_at": "2026-06-05T16:11:08Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 40,
+  "fields": {
+    "user": 23,
+    "jti": "2a0d5123a1a146de96cfd0371192ab7d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NjI0MiwiaWF0IjoxNzgwNTg5ODQyLCJqdGkiOiIyYTBkNTEyM2ExYTE0NmRlOTZjZmQwMzcxMTkyYWI3ZCIsInVzZXJfaWQiOiIyMyJ9.-xfVrdLIZ_UPymRPOJAvL4FrjnJ9mb_b61k9Ac8agSk",
+    "created_at": "2026-06-04T16:17:22.428Z",
+    "expires_at": "2026-06-05T16:17:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 41,
+  "fields": {
+    "user": 23,
+    "jti": "dad32787b14d4d01bdd3d2a7b8e40a84",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NjMwNSwiaWF0IjoxNzgwNTg5OTA1LCJqdGkiOiJkYWQzMjc4N2IxNGQ0ZDAxYmRkM2QyYTdiOGU0MGE4NCIsInVzZXJfaWQiOiIyMyJ9.NLzs63Zz50XpBchqGxS6q-ThtYIuP5QvgK6CwrrsmW4",
+    "created_at": "2026-06-04T16:18:25.688Z",
+    "expires_at": "2026-06-05T16:18:25Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 42,
+  "fields": {
+    "user": 23,
+    "jti": "3225fc9caa61400f92019a9ad1305d24",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NzE0NywiaWF0IjoxNzgwNTkwNzQ3LCJqdGkiOiIzMjI1ZmM5Y2FhNjE0MDBmOTIwMTlhOWFkMTMwNWQyNCIsInVzZXJfaWQiOiIyMyJ9.YL_3jBvgfegCmiIvnrCGAFMq92aVGIzSaahnTqg_fto",
+    "created_at": "2026-06-04T16:32:27.975Z",
+    "expires_at": "2026-06-05T16:32:27Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 43,
+  "fields": {
+    "user": 23,
+    "jti": "25a3975ff19f4864aa34d33a5fbc0fad",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3NzE0NywiaWF0IjoxNzgwNTkwNzQ3LCJqdGkiOiIyNWEzOTc1ZmYxOWY0ODY0YWEzNGQzM2E1ZmJjMGZhZCIsInVzZXJfaWQiOiIyMyJ9._81jiYDpEdjwRA76QfZ9XuokjE3gdK_8Tf4qUzKhvTU",
+    "created_at": "2026-06-04T16:32:27.979Z",
+    "expires_at": "2026-06-05T16:32:27Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 44,
+  "fields": {
+    "user": 23,
+    "jti": "7eaa78841ad240e7be6958ea737c809a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3Nzc3MiwiaWF0IjoxNzgwNTkxMzcyLCJqdGkiOiI3ZWFhNzg4NDFhZDI0MGU3YmU2OTU4ZWE3MzdjODA5YSIsInVzZXJfaWQiOiIyMyJ9.rZqo-EyXrMh3PCs3KIQcfSmUEO8Rc1rBpSvEJuaaG-E",
+    "created_at": "2026-06-04T16:42:52.586Z",
+    "expires_at": "2026-06-05T16:42:52Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 45,
+  "fields": {
+    "user": 23,
+    "jti": "3ebbdefaf761464284da6c5ad23ca8f2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3OTAwOSwiaWF0IjoxNzgwNTkyNjA5LCJqdGkiOiIzZWJiZGVmYWY3NjE0NjQyODRkYTZjNWFkMjNjYThmMiIsInVzZXJfaWQiOiIyMyJ9.k0v-wvukS0-8RqzVHXjPVOvjhX-GxYgf6nNJKEXodZM",
+    "created_at": "2026-06-04T17:03:29.581Z",
+    "expires_at": "2026-06-05T17:03:29Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 46,
+  "fields": {
+    "user": 23,
+    "jti": "c8739f4c00b448e7b552cd2157ba2bac",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3OTAwOSwiaWF0IjoxNzgwNTkyNjA5LCJqdGkiOiJjODczOWY0YzAwYjQ0OGU3YjU1MmNkMjE1N2JhMmJhYyIsInVzZXJfaWQiOiIyMyJ9.bVp37lCMUgXQ2irzzkrLKkWeFyehnfOO1MVXKWMoqMI",
+    "created_at": "2026-06-04T17:03:29.583Z",
+    "expires_at": "2026-06-05T17:03:29Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 47,
+  "fields": {
+    "user": 23,
+    "jti": "a55ad258861b4bedb22c269d3dbf8b27",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3OTA0MSwiaWF0IjoxNzgwNTkyNjQxLCJqdGkiOiJhNTVhZDI1ODg2MWI0YmVkYjIyYzI2OWQzZGJmOGIyNyIsInVzZXJfaWQiOiIyMyJ9.Qqju8q5AY2OJfQrYxqahYb1KcAPgl1d82M4BCVMdhf4",
+    "created_at": "2026-06-04T17:04:01.766Z",
+    "expires_at": "2026-06-05T17:04:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 48,
+  "fields": {
+    "user": 23,
+    "jti": "f0fdc1f02fd3419183500ac6392bcaf6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3OTY0NCwiaWF0IjoxNzgwNTkzMjQ0LCJqdGkiOiJmMGZkYzFmMDJmZDM0MTkxODM1MDBhYzYzOTJiY2FmNiIsInVzZXJfaWQiOiIyMyJ9.l4n1wbkeQlpgcf3E1J62WWcRIYjOd7RZCg0uUcq9dxg",
+    "created_at": "2026-06-04T17:14:04.454Z",
+    "expires_at": "2026-06-05T17:14:04Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 49,
+  "fields": {
+    "user": 23,
+    "jti": "01cc245ad13e4dccb855996422afd0d5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY3OTY0NCwiaWF0IjoxNzgwNTkzMjQ0LCJqdGkiOiIwMWNjMjQ1YWQxM2U0ZGNjYjg1NTk5NjQyMmFmZDBkNSIsInVzZXJfaWQiOiIyMyJ9.J-l_tMMpJpY21xiS2J6c2oHIRS5UQu_-R2yUBTPW_70",
+    "created_at": "2026-06-04T17:14:04.460Z",
+    "expires_at": "2026-06-05T17:14:04Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 50,
+  "fields": {
+    "user": 23,
+    "jti": "3086ab5d8701488aa507365cc2f482f5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MDA3MywiaWF0IjoxNzgwNTkzNjczLCJqdGkiOiIzMDg2YWI1ZDg3MDE0ODhhYTUwNzM2NWNjMmY0ODJmNSIsInVzZXJfaWQiOiIyMyJ9._III5y2kZWTdG8y2oy37D3vML6uRos6oREENXbL5TxY",
+    "created_at": "2026-06-04T17:21:13.839Z",
+    "expires_at": "2026-06-05T17:21:13Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 51,
+  "fields": {
+    "user": 23,
+    "jti": "7e9716a4bb6a441e8531b73c8ad9ebc1",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MDA4MiwiaWF0IjoxNzgwNTkzNjgyLCJqdGkiOiI3ZTk3MTZhNGJiNmE0NDFlODUzMWI3M2M4YWQ5ZWJjMSIsInVzZXJfaWQiOiIyMyJ9.tA_B1l-Q7ujCC9B58QjV9dae1yH5j_VcAepf1V0Tmxs",
+    "created_at": "2026-06-04T17:21:22.304Z",
+    "expires_at": "2026-06-05T17:21:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 52,
+  "fields": {
+    "user": 23,
+    "jti": "6dc0b0425748403abb20a5ef0d756336",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MDY4MiwiaWF0IjoxNzgwNTk0MjgyLCJqdGkiOiI2ZGMwYjA0MjU3NDg0MDNhYmIyMGE1ZWYwZDc1NjMzNiIsInVzZXJfaWQiOiIyMyJ9.fQ6SCeJZfp7RHa-XowRaBJPsITdi9fCUGOwWYAU4PTU",
+    "created_at": "2026-06-04T17:31:22.686Z",
+    "expires_at": "2026-06-05T17:31:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 53,
+  "fields": {
+    "user": 23,
+    "jti": "556f92f3cfa84749a00ed6db74957102",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MTQ0MywiaWF0IjoxNzgwNTk1MDQzLCJqdGkiOiI1NTZmOTJmM2NmYTg0NzQ5YTAwZWQ2ZGI3NDk1NzEwMiIsInVzZXJfaWQiOiIyMyJ9.9BiuWp-JJy0zHOgKZ1p8B8wbycoWqDEd0pNd3jT9jjY",
+    "created_at": "2026-06-04T17:44:03.576Z",
+    "expires_at": "2026-06-05T17:44:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 54,
+  "fields": {
+    "user": 23,
+    "jti": "1b969d20d03841cab17d4bb5c5f0e024",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MTQ0MywiaWF0IjoxNzgwNTk1MDQzLCJqdGkiOiIxYjk2OWQyMGQwMzg0MWNhYjE3ZDRiYjVjNWYwZTAyNCIsInVzZXJfaWQiOiIyMyJ9.rdmVl8pzmWomeu6k2_dFgyDe0RmJptjMNzsrmq7YY74",
+    "created_at": "2026-06-04T17:44:03.582Z",
+    "expires_at": "2026-06-05T17:44:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 55,
+  "fields": {
+    "user": 23,
+    "jti": "b001260b17754d5ba5745994cfae5a69",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MjE2MiwiaWF0IjoxNzgwNTk1NzYyLCJqdGkiOiJiMDAxMjYwYjE3NzU0ZDViYTU3NDU5OTRjZmFlNWE2OSIsInVzZXJfaWQiOiIyMyJ9.qfmOdbnw0gw8_iHFxHSOaBV30o3xmQfJfXWZDK98n74",
+    "created_at": "2026-06-04T17:56:02.490Z",
+    "expires_at": "2026-06-05T17:56:02Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 56,
+  "fields": {
+    "user": 23,
+    "jti": "46cc0fddc8c547bf8fe9a1e57d12c6dd",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MjMyOCwiaWF0IjoxNzgwNTk1OTI4LCJqdGkiOiI0NmNjMGZkZGM4YzU0N2JmOGZlOWExZTU3ZDEyYzZkZCIsInVzZXJfaWQiOiIyMyJ9.4sBIGtMT5Dt66QDUAWUfHZmdVADk9-SII_xUrr1MBdk",
+    "created_at": "2026-06-04T17:58:48.917Z",
+    "expires_at": "2026-06-05T17:58:48Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 57,
+  "fields": {
+    "user": 23,
+    "jti": "b98720a54d2f4510bdefb47eca023f99",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDY4MjQ1NCwiaWF0IjoxNzgwNTk2MDU0LCJqdGkiOiJiOTg3MjBhNTRkMmY0NTEwYmRlZmI0N2VjYTAyM2Y5OSIsInVzZXJfaWQiOiIyMyJ9.fpddB2WDhwSpgpYg4tPbzGjR-FF7iRx5zetRjFWFNeU",
+    "created_at": "2026-06-04T18:00:54.199Z",
+    "expires_at": "2026-06-05T18:00:54Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 58,
+  "fields": {
+    "user": 23,
+    "jti": "8bc0c7a05971447abe1902b824fc02f9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NDg1NCwiaWF0IjoxNzgwNjY4NDU0LCJqdGkiOiI4YmMwYzdhMDU5NzE0NDdhYmUxOTAyYjgyNGZjMDJmOSIsInVzZXJfaWQiOiIyMyJ9.Cbrq_6TeRmDPfEFcnF3DYyV68HexwKKjZgGs3-x65pQ",
+    "created_at": "2026-06-05T14:07:34.220Z",
+    "expires_at": "2026-06-06T14:07:34Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 59,
+  "fields": {
+    "user": 7,
+    "jti": "392ab2aa4a90407ab191cd3c9468b21d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NTMxMCwiaWF0IjoxNzgwNjY4OTEwLCJqdGkiOiIzOTJhYjJhYTRhOTA0MDdhYjE5MWNkM2M5NDY4YjIxZCIsInVzZXJfaWQiOiI3In0.uROliCN5oHBqCS2bbSkRu40gsdrfnvoWNp_3lDS1fGU",
+    "created_at": "2026-06-05T14:15:10.268Z",
+    "expires_at": "2026-06-06T14:15:10Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 60,
+  "fields": {
+    "user": 7,
+    "jti": "ff3b0de03b154dc99786bc3a43e60b23",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NTMyNiwiaWF0IjoxNzgwNjY4OTI2LCJqdGkiOiJmZjNiMGRlMDNiMTU0ZGM5OTc4NmJjM2E0M2U2MGIyMyIsInVzZXJfaWQiOiI3In0.EyQyOc7Amp1KydHQWTuI4TTCLXqfT1_ksaSpZ518Xak",
+    "created_at": "2026-06-05T14:15:26.257Z",
+    "expires_at": "2026-06-06T14:15:26Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 61,
+  "fields": {
+    "user": 7,
+    "jti": "109a94655bde4781957fa1eaafb6254c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NTk4MSwiaWF0IjoxNzgwNjY5NTgxLCJqdGkiOiIxMDlhOTQ2NTViZGU0NzgxOTU3ZmExZWFhZmI2MjU0YyIsInVzZXJfaWQiOiI3In0.W3RoNW16sFQ9LB_7zQZdN7c5ym7-0KpkdyTb1-gEEEE",
+    "created_at": "2026-06-05T14:26:21.912Z",
+    "expires_at": "2026-06-06T14:26:21Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 62,
+  "fields": {
+    "user": 7,
+    "jti": "86a5706cce024c4ebad809238029d90a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NTk4MSwiaWF0IjoxNzgwNjY5NTgxLCJqdGkiOiI4NmE1NzA2Y2NlMDI0YzRlYmFkODA5MjM4MDI5ZDkwYSIsInVzZXJfaWQiOiI3In0.0JJLXT6nKfXzbuXXVWJuXhyJV4VwIJmUtAOnXuVQHn4",
+    "created_at": "2026-06-05T14:26:21.915Z",
+    "expires_at": "2026-06-06T14:26:21Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 63,
+  "fields": {
+    "user": 7,
+    "jti": "f966767455404f07904f66749b565012",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NjI3NSwiaWF0IjoxNzgwNjY5ODc1LCJqdGkiOiJmOTY2NzY3NDU1NDA0ZjA3OTA0ZjY2NzQ5YjU2NTAxMiIsInVzZXJfaWQiOiI3In0.2zv47t40PghYG-_4CQkfE8o6Vz6NkP2o4d4KjqYeRNA",
+    "created_at": "2026-06-05T14:31:15.245Z",
+    "expires_at": "2026-06-06T14:31:15Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 64,
+  "fields": {
+    "user": 7,
+    "jti": "6b637c1a6ca144cd8952e0513d89549d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NzAxMSwiaWF0IjoxNzgwNjcwNjExLCJqdGkiOiI2YjYzN2MxYTZjYTE0NGNkODk1MmUwNTEzZDg5NTQ5ZCIsInVzZXJfaWQiOiI3In0.RqoTGaWiQem9oNDjkRebqYhPCZnqm6Toar8ucwv8NBU",
+    "created_at": "2026-06-05T14:43:31.294Z",
+    "expires_at": "2026-06-06T14:43:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 65,
+  "fields": {
+    "user": 7,
+    "jti": "30712783aae343168ffc164394ce6cca",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NzAxMSwiaWF0IjoxNzgwNjcwNjExLCJqdGkiOiIzMDcxMjc4M2FhZTM0MzE2OGZmYzE2NDM5NGNlNmNjYSIsInVzZXJfaWQiOiI3In0.iDofBqpHsBwm_PrCfUoSN1IGEGE6N9p3WVf8i1NtqrA",
+    "created_at": "2026-06-05T14:43:31.292Z",
+    "expires_at": "2026-06-06T14:43:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 66,
+  "fields": {
+    "user": 7,
+    "jti": "a2b201d483dd4805b0957b1f67fc9684",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1NzUyMSwiaWF0IjoxNzgwNjcxMTIxLCJqdGkiOiJhMmIyMDFkNDgzZGQ0ODA1YjA5NTdiMWY2N2ZjOTY4NCIsInVzZXJfaWQiOiI3In0.21c7WQjdC55FPJtGUM8DMDCe4lGjLncJyL0b107CLMo",
+    "created_at": "2026-06-05T14:52:01.959Z",
+    "expires_at": "2026-06-06T14:52:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 67,
+  "fields": {
+    "user": 7,
+    "jti": "91512d0ea6164d23a6e030606dce871e",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1ODE1MCwiaWF0IjoxNzgwNjcxNzUwLCJqdGkiOiI5MTUxMmQwZWE2MTY0ZDIzYTZlMDMwNjA2ZGNlODcxZSIsInVzZXJfaWQiOiI3In0.S2ph-UpbrYG-wMtE6yvQltmRp8hZCgje5t9LV4eLT6I",
+    "created_at": "2026-06-05T15:02:30.383Z",
+    "expires_at": "2026-06-06T15:02:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 68,
+  "fields": {
+    "user": 7,
+    "jti": "9f5dc3d1732d43e8a230815bf36edfd4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1ODE1MCwiaWF0IjoxNzgwNjcxNzUwLCJqdGkiOiI5ZjVkYzNkMTczMmQ0M2U4YTIzMDgxNWJmMzZlZGZkNCIsInVzZXJfaWQiOiI3In0.MIJKvQB7ekROjdkysnjjYVFiE9WbqQc7hXDNVWCA_mM",
+    "created_at": "2026-06-05T15:02:30.386Z",
+    "expires_at": "2026-06-06T15:02:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 69,
+  "fields": {
+    "user": 7,
+    "jti": "264238f7345f445f9725acabcfadba10",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1OTE1NywiaWF0IjoxNzgwNjcyNzU3LCJqdGkiOiIyNjQyMzhmNzM0NWY0NDVmOTcyNWFjYWJjZmFkYmExMCIsInVzZXJfaWQiOiI3In0.McswpwSNNFu3VBXLSKOzhdvYBaiPfZygDuQlKdHuols",
+    "created_at": "2026-06-05T15:19:17.183Z",
+    "expires_at": "2026-06-06T15:19:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 70,
+  "fields": {
+    "user": 7,
+    "jti": "2d4833050405428f9d9a9330ad87c24c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1OTMxNywiaWF0IjoxNzgwNjcyOTE3LCJqdGkiOiIyZDQ4MzMwNTA0MDU0MjhmOWQ5YTkzMzBhZDg3YzI0YyIsInVzZXJfaWQiOiI3In0.gjhr88rxGEnQ5_ICNbxNIBKYrN6gWOkG4q87zsv6Hi0",
+    "created_at": "2026-06-05T15:21:57.974Z",
+    "expires_at": "2026-06-06T15:21:57Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 71,
+  "fields": {
+    "user": 7,
+    "jti": "6f2fe4b27d4d4a2e92a8f1831a50b005",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc1OTM0OSwiaWF0IjoxNzgwNjcyOTQ5LCJqdGkiOiI2ZjJmZTRiMjdkNGQ0YTJlOTJhOGYxODMxYTUwYjAwNSIsInVzZXJfaWQiOiI3In0.yktIwNY0VSfjuTzuLJ0dyLB0y3Ho6eLu2kYVhkpPY0I",
+    "created_at": "2026-06-05T15:22:29.907Z",
+    "expires_at": "2026-06-06T15:22:29Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 72,
+  "fields": {
+    "user": 7,
+    "jti": "5ba716269d134720aaaf8dc56b0682c3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MDA0MSwiaWF0IjoxNzgwNjczNjQxLCJqdGkiOiI1YmE3MTYyNjlkMTM0NzIwYWFhZjhkYzU2YjA2ODJjMyIsInVzZXJfaWQiOiI3In0.gHufKuGuxkidsOsgoKqUeEkcA7esoSCzKw58cJcw-wY",
+    "created_at": "2026-06-05T15:34:01.109Z",
+    "expires_at": "2026-06-06T15:34:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 73,
+  "fields": {
+    "user": 7,
+    "jti": "a7646f4285a44a278c83e4ecba82c22f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MDcxMiwiaWF0IjoxNzgwNjc0MzEyLCJqdGkiOiJhNzY0NmY0Mjg1YTQ0YTI3OGM4M2U0ZWNiYTgyYzIyZiIsInVzZXJfaWQiOiI3In0.EVRTbri5wKeG1zz_4I1HfMyE-qYZEmKGmNGufmcywwg",
+    "created_at": "2026-06-05T15:45:12.355Z",
+    "expires_at": "2026-06-06T15:45:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 74,
+  "fields": {
+    "user": 7,
+    "jti": "8757af043aab4ef5966a05fae82774a5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MDcxMiwiaWF0IjoxNzgwNjc0MzEyLCJqdGkiOiI4NzU3YWYwNDNhYWI0ZWY1OTY2YTA1ZmFlODI3NzRhNSIsInVzZXJfaWQiOiI3In0.w6aHVzrR16_73sEQihuwFLeNNDTyB759MetUp9zlReM",
+    "created_at": "2026-06-05T15:45:12.352Z",
+    "expires_at": "2026-06-06T15:45:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 75,
+  "fields": {
+    "user": 7,
+    "jti": "e0d05beccc0a4ad9aa6bb322fc48348f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MTU0MiwiaWF0IjoxNzgwNjc1MTQyLCJqdGkiOiJlMGQwNWJlY2NjMGE0YWQ5YWE2YmIzMjJmYzQ4MzQ4ZiIsInVzZXJfaWQiOiI3In0.RljCgujQ4JWxhKZbLqmOjRvzjiRCLLoGi_XpQeTC3VA",
+    "created_at": "2026-06-05T15:59:02.541Z",
+    "expires_at": "2026-06-06T15:59:02Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 76,
+  "fields": {
+    "user": 7,
+    "jti": "787384f4f51c4736a522afe30272cf55",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MjIwOSwiaWF0IjoxNzgwNjc1ODA5LCJqdGkiOiI3ODczODRmNGY1MWM0NzM2YTUyMmFmZTMwMjcyY2Y1NSIsInVzZXJfaWQiOiI3In0.Tq1xbBBbj6zhOKx4dQic4RSc8MtEmr5ZEeF7Un7w8jk",
+    "created_at": "2026-06-05T16:10:09.947Z",
+    "expires_at": "2026-06-06T16:10:09Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 77,
+  "fields": {
+    "user": 7,
+    "jti": "1386643a5bd54ea8b8e1e481e83de195",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MjIxMSwiaWF0IjoxNzgwNjc1ODExLCJqdGkiOiIxMzg2NjQzYTViZDU0ZWE4YjhlMWU0ODFlODNkZTE5NSIsInVzZXJfaWQiOiI3In0.KJX5VeSzKlEl2-w0_lpZjNc4LXy5fE7eAZYKCEzG2MI",
+    "created_at": "2026-06-05T16:10:11.678Z",
+    "expires_at": "2026-06-06T16:10:11Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 78,
+  "fields": {
+    "user": 7,
+    "jti": "2a3da21540844d6283cfe623752d0f45",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2Mjg0OSwiaWF0IjoxNzgwNjc2NDQ5LCJqdGkiOiIyYTNkYTIxNTQwODQ0ZDYyODNjZmU2MjM3NTJkMGY0NSIsInVzZXJfaWQiOiI3In0.4hjYCNAXUt0rlkWzPT3UjF90cjY586MeZtQMu1lfGcs",
+    "created_at": "2026-06-05T16:20:49.656Z",
+    "expires_at": "2026-06-06T16:20:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 79,
+  "fields": {
+    "user": 7,
+    "jti": "7117334089a34eef9dd8ac06153dcfbe",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2Mjg0OSwiaWF0IjoxNzgwNjc2NDQ5LCJqdGkiOiI3MTE3MzM0MDg5YTM0ZWVmOWRkOGFjMDYxNTNkY2ZiZSIsInVzZXJfaWQiOiI3In0.-S6qiyv_AIo59nNC_lllPzhE8D1SlJYT-KaT5mSItm8",
+    "created_at": "2026-06-05T16:20:49.670Z",
+    "expires_at": "2026-06-06T16:20:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 80,
+  "fields": {
+    "user": 7,
+    "jti": "1432cafd8e06437ebfa69a53980d91c0",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2MzQ2NiwiaWF0IjoxNzgwNjc3MDY2LCJqdGkiOiIxNDMyY2FmZDhlMDY0MzdlYmZhNjlhNTM5ODBkOTFjMCIsInVzZXJfaWQiOiI3In0.mkhpeLx0eIE2FG5kg2ZmOJBKrLqHOp2yRZohZygfr5g",
+    "created_at": "2026-06-05T16:31:06.357Z",
+    "expires_at": "2026-06-06T16:31:06Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 81,
+  "fields": {
+    "user": 7,
+    "jti": "8a6ff303379a4040934414a3e468c819",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2NDMxNywiaWF0IjoxNzgwNjc3OTE3LCJqdGkiOiI4YTZmZjMwMzM3OWE0MDQwOTM0NDE0YTNlNDY4YzgxOSIsInVzZXJfaWQiOiI3In0.2aJCSh7QdA5c3KkHqMaEyYs16xRGrG7APPbLrOIJmW8",
+    "created_at": "2026-06-05T16:45:17.015Z",
+    "expires_at": "2026-06-06T16:45:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 82,
+  "fields": {
+    "user": 7,
+    "jti": "c03e408ca08d41f78f77fd4d02f0dc1d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2NTgzOCwiaWF0IjoxNzgwNjc5NDM4LCJqdGkiOiJjMDNlNDA4Y2EwOGQ0MWY3OGY3N2ZkNGQwMmYwZGMxZCIsInVzZXJfaWQiOiI3In0.qC52KvE5Yc1rYRXh54pAd35KdHZ41LYlbeszLmaH248",
+    "created_at": "2026-06-05T17:10:38.762Z",
+    "expires_at": "2026-06-06T17:10:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 83,
+  "fields": {
+    "user": 7,
+    "jti": "bc85e5bb421d4309854814f57dcee861",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2NzE3MSwiaWF0IjoxNzgwNjgwNzcxLCJqdGkiOiJiYzg1ZTViYjQyMWQ0MzA5ODU0ODE0ZjU3ZGNlZTg2MSIsInVzZXJfaWQiOiI3In0.oxqMJL05n7hZe24FOhd5oMD7qAsJTRgW75v1oTLNylE",
+    "created_at": "2026-06-05T17:32:51.597Z",
+    "expires_at": "2026-06-06T17:32:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 84,
+  "fields": {
+    "user": 7,
+    "jti": "d2a84149136e42898baa4b7a077d391d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2NzE3MSwiaWF0IjoxNzgwNjgwNzcxLCJqdGkiOiJkMmE4NDE0OTEzNmU0Mjg5OGJhYTRiN2EwNzdkMzkxZCIsInVzZXJfaWQiOiI3In0.IVF_V-9BSwftXmh-HgKTSvXsqotIj0xOreekxYUSaY8",
+    "created_at": "2026-06-05T17:32:51.580Z",
+    "expires_at": "2026-06-06T17:32:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 85,
+  "fields": {
+    "user": 7,
+    "jti": "60d0741f91f1432abb2c1248d6590d03",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2ODI3MiwiaWF0IjoxNzgwNjgxODcyLCJqdGkiOiI2MGQwNzQxZjkxZjE0MzJhYmIyYzEyNDhkNjU5MGQwMyIsInVzZXJfaWQiOiI3In0.VpcC8qm3BBavciFvSy_z1MSHNaTBkvE_qawp3LOqba0",
+    "created_at": "2026-06-05T17:51:12.385Z",
+    "expires_at": "2026-06-06T17:51:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 86,
+  "fields": {
+    "user": 7,
+    "jti": "fd688423d9aa4f4aba68c7a4b80bc85c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc2OTMxNCwiaWF0IjoxNzgwNjgyOTE0LCJqdGkiOiJmZDY4ODQyM2Q5YWE0ZjRhYmE2OGM3YTRiODBiYzg1YyIsInVzZXJfaWQiOiI3In0.5i17r32EbwWX23fegobIVnIxyBjYawOgFXUzyeuTluU",
+    "created_at": "2026-06-05T18:08:34.947Z",
+    "expires_at": "2026-06-06T18:08:34Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 87,
+  "fields": {
+    "user": 7,
+    "jti": "ef5020780baf4309a21c333b393f1fc6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3MDQxMywiaWF0IjoxNzgwNjg0MDEzLCJqdGkiOiJlZjUwMjA3ODBiYWY0MzA5YTIxYzMzM2IzOTNmMWZjNiIsInVzZXJfaWQiOiI3In0.NFm0D36rVgqilzrqTLba-AAicUCfoinQD1z5S_phDk8",
+    "created_at": "2026-06-05T18:26:53.558Z",
+    "expires_at": "2026-06-06T18:26:53Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 88,
+  "fields": {
+    "user": 7,
+    "jti": "73dd0c17e6a94ab0af04cf9fe3a71b90",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3MDk1MSwiaWF0IjoxNzgwNjg0NTUxLCJqdGkiOiI3M2RkMGMxN2U2YTk0YWIwYWYwNGNmOWZlM2E3MWI5MCIsInVzZXJfaWQiOiI3In0.mgRjTTZtai4FI1cJzBxVBBqazV8V1zRx9IS5rEhnBBg",
+    "created_at": "2026-06-05T18:35:51.601Z",
+    "expires_at": "2026-06-06T18:35:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 89,
+  "fields": {
+    "user": 7,
+    "jti": "1bed8079720a47e8826a80629b686f32",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3MTk2OSwiaWF0IjoxNzgwNjg1NTY5LCJqdGkiOiIxYmVkODA3OTcyMGE0N2U4ODI2YTgwNjI5YjY4NmYzMiIsInVzZXJfaWQiOiI3In0.wUE5nVrcuIJhpjHAj6JslD7ZJzr83vLCpclqScvsoU0",
+    "created_at": "2026-06-05T18:52:49.030Z",
+    "expires_at": "2026-06-06T18:52:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 90,
+  "fields": {
+    "user": 7,
+    "jti": "c7e822d67614430e83fc8bc834113012",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3MjYwMiwiaWF0IjoxNzgwNjg2MjAyLCJqdGkiOiJjN2U4MjJkNjc2MTQ0MzBlODNmYzhiYzgzNDExMzAxMiIsInVzZXJfaWQiOiI3In0._ayxF1S_ZFZblzKfvrkLKXGoDHUwMOH6TRa6UNTGics",
+    "created_at": "2026-06-05T19:03:22.416Z",
+    "expires_at": "2026-06-06T19:03:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 91,
+  "fields": {
+    "user": 7,
+    "jti": "24be50a1ba7e40e5b727a3759ab3d2b9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3MjYwMiwiaWF0IjoxNzgwNjg2MjAyLCJqdGkiOiIyNGJlNTBhMWJhN2U0MGU1YjcyN2EzNzU5YWIzZDJiOSIsInVzZXJfaWQiOiI3In0.WkIauEaQMUdrcVIpwcrN8XPbPzcSsAVwAc4A_qm4Z-E",
+    "created_at": "2026-06-05T19:03:22.420Z",
+    "expires_at": "2026-06-06T19:03:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 92,
+  "fields": {
+    "user": 7,
+    "jti": "10b63ad71955446eb4b9f80312242877",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3NTEwNywiaWF0IjoxNzgwNjg4NzA3LCJqdGkiOiIxMGI2M2FkNzE5NTU0NDZlYjRiOWY4MDMxMjI0Mjg3NyIsInVzZXJfaWQiOiI3In0.QdYQa0SsDrOb956I3zj9i816iRphYu8TBegoZ3e8Zu4",
+    "created_at": "2026-06-05T19:45:07.326Z",
+    "expires_at": "2026-06-06T19:45:07Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 93,
+  "fields": {
+    "user": 7,
+    "jti": "829040b8cce54ac08cd25770ea62223d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3NTk1OSwiaWF0IjoxNzgwNjg5NTU5LCJqdGkiOiI4MjkwNDBiOGNjZTU0YWMwOGNkMjU3NzBlYTYyMjIzZCIsInVzZXJfaWQiOiI3In0.gCv9M220G1wdYugoTaTQiqq7lGaxVW36VfOl37WSmpQ",
+    "created_at": "2026-06-05T19:59:19.814Z",
+    "expires_at": "2026-06-06T19:59:19Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 94,
+  "fields": {
+    "user": 7,
+    "jti": "1b851525a0a547a683d0352a85a0b0f6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3NTk1OSwiaWF0IjoxNzgwNjg5NTU5LCJqdGkiOiIxYjg1MTUyNWEwYTU0N2E2ODNkMDM1MmE4NWEwYjBmNiIsInVzZXJfaWQiOiI3In0.28kv2yupyjZI04dtvgIsa9YbRqe48QiI9PUD8eXLkQk",
+    "created_at": "2026-06-05T19:59:19.809Z",
+    "expires_at": "2026-06-06T19:59:19Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 95,
+  "fields": {
+    "user": 7,
+    "jti": "868eac53ca124470b3221e4fbf5102a5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc3OTQzMywiaWF0IjoxNzgwNjkzMDMzLCJqdGkiOiI4NjhlYWM1M2NhMTI0NDcwYjMyMjFlNGZiZjUxMDJhNSIsInVzZXJfaWQiOiI3In0.7gm0_HdgCm0q0cFFgfzz_s0ESnO7lmquVZVSwrkZ8yA",
+    "created_at": "2026-06-05T20:57:13.061Z",
+    "expires_at": "2026-06-06T20:57:13Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 96,
+  "fields": {
+    "user": 7,
+    "jti": "3bfa6f77dbe947efb4e3a74472e05311",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MDU2MSwiaWF0IjoxNzgwNjk0MTYxLCJqdGkiOiIzYmZhNmY3N2RiZTk0N2VmYjRlM2E3NDQ3MmUwNTMxMSIsInVzZXJfaWQiOiI3In0.xF7HLH0XbvhdIBI9FXSjVL9yP2owXt-FXMybXOWF018",
+    "created_at": "2026-06-05T21:16:01.541Z",
+    "expires_at": "2026-06-06T21:16:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 97,
+  "fields": {
+    "user": 7,
+    "jti": "e4b32de1abf2422a8813c5c493824d20",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MDU2MSwiaWF0IjoxNzgwNjk0MTYxLCJqdGkiOiJlNGIzMmRlMWFiZjI0MjJhODgxM2M1YzQ5MzgyNGQyMCIsInVzZXJfaWQiOiI3In0.mBZpVgSB7SI9ufmJdHVa4ozyk-QOAdT1u9X8rWR_tmU",
+    "created_at": "2026-06-05T21:16:01.537Z",
+    "expires_at": "2026-06-06T21:16:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 98,
+  "fields": {
+    "user": 7,
+    "jti": "7da36089b05c49ea8cec44ffa8e8337c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MTMyNiwiaWF0IjoxNzgwNjk0OTI2LCJqdGkiOiI3ZGEzNjA4OWIwNWM0OWVhOGNlYzQ0ZmZhOGU4MzM3YyIsInVzZXJfaWQiOiI3In0.0xttdkpvKUzn3Ow7RlxYw1LRbF53b6OX3JWs0XGp_xU",
+    "created_at": "2026-06-05T21:28:46.588Z",
+    "expires_at": "2026-06-06T21:28:46Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 99,
+  "fields": {
+    "user": 7,
+    "jti": "c24838f4bba84d759900e8d7fe040e0d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MTgyNCwiaWF0IjoxNzgwNjk1NDI0LCJqdGkiOiJjMjQ4MzhmNGJiYTg0ZDc1OTkwMGU4ZDdmZTA0MGUwZCIsInVzZXJfaWQiOiI3In0.bhK0IlMTdbJ3LIWaHiPqhn4Y-tZuOZUQ7GR5kdtEvuU",
+    "created_at": "2026-06-05T21:37:04.137Z",
+    "expires_at": "2026-06-06T21:37:04Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 100,
+  "fields": {
+    "user": 7,
+    "jti": "4e8a20c7924843adb2a0ab31f5969958",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MTg2OSwiaWF0IjoxNzgwNjk1NDY5LCJqdGkiOiI0ZThhMjBjNzkyNDg0M2FkYjJhMGFiMzFmNTk2OTk1OCIsInVzZXJfaWQiOiI3In0.vM8MtCcSFF_dl04jLLQNJPkz2B44U7bSnzY1L39hbDI",
+    "created_at": "2026-06-05T21:37:49.842Z",
+    "expires_at": "2026-06-06T21:37:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 101,
+  "fields": {
+    "user": 7,
+    "jti": "aecea8b7e5484dfdb78869380bfd84a5",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MjEwMSwiaWF0IjoxNzgwNjk1NzAxLCJqdGkiOiJhZWNlYThiN2U1NDg0ZGZkYjc4ODY5MzgwYmZkODRhNSIsInVzZXJfaWQiOiI3In0.kRJMw_DiM9IZd8SwkOIqIqVM-SVdyLKLU40uN-RceR4",
+    "created_at": "2026-06-05T21:41:41.466Z",
+    "expires_at": "2026-06-06T21:41:41Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 102,
+  "fields": {
+    "user": 7,
+    "jti": "7cc3d827449c4e3cbf58bb92a8eb7c66",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4Mjc0NSwiaWF0IjoxNzgwNjk2MzQ1LCJqdGkiOiI3Y2MzZDgyNzQ0OWM0ZTNjYmY1OGJiOTJhOGViN2M2NiIsInVzZXJfaWQiOiI3In0.3qJS6taZhIL9HqRPU86w8c837gkoW5gAGUoNVeVpScM",
+    "created_at": "2026-06-05T21:52:25.182Z",
+    "expires_at": "2026-06-06T21:52:25Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 103,
+  "fields": {
+    "user": 7,
+    "jti": "13657ce7ff4840668bbfb484e5b976cd",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4Mjc0NSwiaWF0IjoxNzgwNjk2MzQ1LCJqdGkiOiIxMzY1N2NlN2ZmNDg0MDY2OGJiZmI0ODRlNWI5NzZjZCIsInVzZXJfaWQiOiI3In0.8Ti8dxsMV8h4V4jVaQhXpI6tcJKiR1Ha5VjFUNhAh9A",
+    "created_at": "2026-06-05T21:52:25.187Z",
+    "expires_at": "2026-06-06T21:52:25Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 104,
+  "fields": {
+    "user": 7,
+    "jti": "bd73523939d84a9da0dda610678e623a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4MzQxNiwiaWF0IjoxNzgwNjk3MDE2LCJqdGkiOiJiZDczNTIzOTM5ZDg0YTlkYTBkZGE2MTA2NzhlNjIzYSIsInVzZXJfaWQiOiI3In0.RuZCQgPDvf0aikW0-P4fCqShNpxUOloDE4_VUaDCWY4",
+    "created_at": "2026-06-05T22:03:36.560Z",
+    "expires_at": "2026-06-06T22:03:36Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 105,
+  "fields": {
+    "user": 7,
+    "jti": "14f8234351f34e5b86d789a4fd9165f4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NDUzNCwiaWF0IjoxNzgwNjk4MTM0LCJqdGkiOiIxNGY4MjM0MzUxZjM0ZTViODZkNzg5YTRmZDkxNjVmNCIsInVzZXJfaWQiOiI3In0.MJU__wucwdPgtdT66r_l_cRBNo3nVHmMDXPwSTglrcE",
+    "created_at": "2026-06-05T22:22:14.534Z",
+    "expires_at": "2026-06-06T22:22:14Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 106,
+  "fields": {
+    "user": 7,
+    "jti": "318e971e355c4f8abe3c5e1f7f497a42",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NDU0NCwiaWF0IjoxNzgwNjk4MTQ0LCJqdGkiOiIzMThlOTcxZTM1NWM0ZjhhYmUzYzVlMWY3ZjQ5N2E0MiIsInVzZXJfaWQiOiI3In0.5qfVIN-qwumULwMNJxIvjjpFRq6hMrA9iPrrEOK-4Bg",
+    "created_at": "2026-06-05T22:22:24.689Z",
+    "expires_at": "2026-06-06T22:22:24Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 107,
+  "fields": {
+    "user": 7,
+    "jti": "39c123f47e154ae6a4f0b1ee957a2990",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NTk5MSwiaWF0IjoxNzgwNjk5NTkxLCJqdGkiOiIzOWMxMjNmNDdlMTU0YWU2YTRmMGIxZWU5NTdhMjk5MCIsInVzZXJfaWQiOiI3In0.nrWSzdU7wKtL5l-_-G9OGz3VDQ4DQ_3Pre1ZK0hh0HQ",
+    "created_at": "2026-06-05T22:46:31.721Z",
+    "expires_at": "2026-06-06T22:46:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 108,
+  "fields": {
+    "user": 7,
+    "jti": "dba0c34d9d6c448c806b0c769c306724",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NTk5MywiaWF0IjoxNzgwNjk5NTkzLCJqdGkiOiJkYmEwYzM0ZDlkNmM0NDhjODA2YjBjNzY5YzMwNjcyNCIsInVzZXJfaWQiOiI3In0.-b0qdKDd0j4i5gcYVCjLHliPqRk2qlZDZk2BzkJyDDU",
+    "created_at": "2026-06-05T22:46:33.406Z",
+    "expires_at": "2026-06-06T22:46:33Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 109,
+  "fields": {
+    "user": 7,
+    "jti": "44e0fde07b4a40b0aca76c0fd70a7fb9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NjcxOCwiaWF0IjoxNzgwNzAwMzE4LCJqdGkiOiI0NGUwZmRlMDdiNGE0MGIwYWNhNzZjMGZkNzBhN2ZiOSIsInVzZXJfaWQiOiI3In0.wnb4US4G8Yx2V2xl96q7UL3lgpL1zhGuJ5Ctmz_Hd70",
+    "created_at": "2026-06-05T22:58:38.973Z",
+    "expires_at": "2026-06-06T22:58:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 110,
+  "fields": {
+    "user": 7,
+    "jti": "d4407a6308f7494eb88f7aaaa4cf34a1",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NjcxOCwiaWF0IjoxNzgwNzAwMzE4LCJqdGkiOiJkNDQwN2E2MzA4Zjc0OTRlYjg4ZjdhYWFhNGNmMzRhMSIsInVzZXJfaWQiOiI3In0.PNPCrOjjK0LP0Jz0oNlysLJ8KWOCjrDTYdQYHY5V6kU",
+    "created_at": "2026-06-05T22:58:38.990Z",
+    "expires_at": "2026-06-06T22:58:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 111,
+  "fields": {
+    "user": 7,
+    "jti": "c55db0df79594f648e1aeb8e4e14c153",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4NzM0MCwiaWF0IjoxNzgwNzAwOTQwLCJqdGkiOiJjNTVkYjBkZjc5NTk0ZjY0OGUxYWViOGU0ZTE0YzE1MyIsInVzZXJfaWQiOiI3In0.Kxfm6uVkie_SNDIZmT1rEoec3hf3MKktQzTtMuqRlLc",
+    "created_at": "2026-06-05T23:09:00.794Z",
+    "expires_at": "2026-06-06T23:09:00Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 112,
+  "fields": {
+    "user": 7,
+    "jti": "f69a8e821cfe4e0db6448d5aa6b47e72",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4ODE3NiwiaWF0IjoxNzgwNzAxNzc2LCJqdGkiOiJmNjlhOGU4MjFjZmU0ZTBkYjY0NDhkNWFhNmI0N2U3MiIsInVzZXJfaWQiOiI3In0.9FXZDCWiXmXZ6hnLo_lNDhe5_U7CbN5KxrAMdpopqss",
+    "created_at": "2026-06-05T23:22:56.488Z",
+    "expires_at": "2026-06-06T23:22:56Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 113,
+  "fields": {
+    "user": 7,
+    "jti": "bdd11d7179684730a1221b32673f3341",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4ODE3NiwiaWF0IjoxNzgwNzAxNzc2LCJqdGkiOiJiZGQxMWQ3MTc5Njg0NzMwYTEyMjFiMzI2NzNmMzM0MSIsInVzZXJfaWQiOiI3In0.8nF3Nrkm5niDH-jqo1QC39Y11AOqeObuqP6eMtba5Q8",
+    "created_at": "2026-06-05T23:22:56.495Z",
+    "expires_at": "2026-06-06T23:22:56Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 114,
+  "fields": {
+    "user": 7,
+    "jti": "486b6a27eb1c4126ab77fca3ad7abd8c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc4OTM1MiwiaWF0IjoxNzgwNzAyOTUyLCJqdGkiOiI0ODZiNmEyN2ViMWM0MTI2YWI3N2ZjYTNhZDdhYmQ4YyIsInVzZXJfaWQiOiI3In0.DSahmX9lHz8S9Nvc7CHraTr8oJknAyzD40fvIyZdShM",
+    "created_at": "2026-06-05T23:42:32.832Z",
+    "expires_at": "2026-06-06T23:42:32Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 115,
+  "fields": {
+    "user": 7,
+    "jti": "a1fb14f2d3d34f2090af89736de08603",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5MjY4OCwiaWF0IjoxNzgwNzA2Mjg4LCJqdGkiOiJhMWZiMTRmMmQzZDM0ZjIwOTBhZjg5NzM2ZGUwODYwMyIsInVzZXJfaWQiOiI3In0.gcl0SUrzHsSzG5MDxmqDH1OkzOon1M5YhApgH4Y1IeA",
+    "created_at": "2026-06-06T00:38:08.122Z",
+    "expires_at": "2026-06-07T00:38:08Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 116,
+  "fields": {
+    "user": 23,
+    "jti": "f849bf4d31564cdf86eb115f786ab117",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5MjcxNiwiaWF0IjoxNzgwNzA2MzE2LCJqdGkiOiJmODQ5YmY0ZDMxNTY0Y2RmODZlYjExNWY3ODZhYjExNyIsInVzZXJfaWQiOiIyMyJ9.TfZxDK8bRXWZanAA7UzJoHPmzt3f7t7TVUAdMFiktSo",
+    "created_at": "2026-06-06T00:38:36.822Z",
+    "expires_at": "2026-06-07T00:38:36Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 117,
+  "fields": {
+    "user": 7,
+    "jti": "2f132db08666418faa0972749909b25c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5Mjc0MywiaWF0IjoxNzgwNzA2MzQzLCJqdGkiOiIyZjEzMmRiMDg2NjY0MThmYWEwOTcyNzQ5OTA5YjI1YyIsInVzZXJfaWQiOiI3In0.tJn68kNO7QoG0bBLvqrIcHqk3-I67PkeFKmyIrYGmak",
+    "created_at": "2026-06-06T00:39:03.053Z",
+    "expires_at": "2026-06-07T00:39:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 118,
+  "fields": {
+    "user": 23,
+    "jti": "7c26522ef0f341f8baabb49776cebf40",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5Mjc2MywiaWF0IjoxNzgwNzA2MzYzLCJqdGkiOiI3YzI2NTIyZWYwZjM0MWY4YmFhYmI0OTc3NmNlYmY0MCIsInVzZXJfaWQiOiIyMyJ9.4gM5rK1xN72aR8FcN1Bhx8HM4TQaF2jn2itdAYbhb8g",
+    "created_at": "2026-06-06T00:39:23.016Z",
+    "expires_at": "2026-06-07T00:39:23Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 119,
+  "fields": {
+    "user": 23,
+    "jti": "c37cac3395c1466893d6a640e31518d2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5MzczMiwiaWF0IjoxNzgwNzA3MzMyLCJqdGkiOiJjMzdjYWMzMzk1YzE0NjY4OTNkNmE2NDBlMzE1MThkMiIsInVzZXJfaWQiOiIyMyJ9.2vWxPg_TeqFSbJESxMWZYPPl4Ax-VgA9Evi-_KKtzJo",
+    "created_at": "2026-06-06T00:55:32.929Z",
+    "expires_at": "2026-06-07T00:55:32Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 120,
+  "fields": {
+    "user": 7,
+    "jti": "cf752846ed4b4e22bab4cd09e50cf1b9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5Mzc5MCwiaWF0IjoxNzgwNzA3MzkwLCJqdGkiOiJjZjc1Mjg0NmVkNGI0ZTIyYmFiNGNkMDllNTBjZjFiOSIsInVzZXJfaWQiOiI3In0.qphiFDPU3Wci5u-U8V5wJ0Vjd45Dp7Hv-7jJWiHKoso",
+    "created_at": "2026-06-06T00:56:30.434Z",
+    "expires_at": "2026-06-07T00:56:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 121,
+  "fields": {
+    "user": 23,
+    "jti": "a148e028b2e049ea88ebdb57bedc683f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5MzgyMywiaWF0IjoxNzgwNzA3NDIzLCJqdGkiOiJhMTQ4ZTAyOGIyZTA0OWVhODhlYmRiNTdiZWRjNjgzZiIsInVzZXJfaWQiOiIyMyJ9._k8WNAkBCzZdXYtJ-gi1tECyILNzmIndLMxBCjHhMFI",
+    "created_at": "2026-06-06T00:57:03.676Z",
+    "expires_at": "2026-06-07T00:57:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 122,
+  "fields": {
+    "user": 3,
+    "jti": "ccb1a10a2067496dbb778ed3ecfb36f1",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5NDQxMywiaWF0IjoxNzgwNzA4MDEzLCJqdGkiOiJjY2IxYTEwYTIwNjc0OTZkYmI3NzhlZDNlY2ZiMzZmMSIsInVzZXJfaWQiOiIzIn0.s-2isWXurxGD3Q24xuQrM5VPgTtTHr_uctqTpZVTvhM",
+    "created_at": "2026-06-06T01:06:53.650Z",
+    "expires_at": "2026-06-07T01:06:53Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 123,
+  "fields": {
+    "user": 3,
+    "jti": "92c6c3dac4794fb3b50f7f51ff673c85",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5NTIwMSwiaWF0IjoxNzgwNzA4ODAxLCJqdGkiOiI5MmM2YzNkYWM0Nzk0ZmIzYjUwZjdmNTFmZjY3M2M4NSIsInVzZXJfaWQiOiIzIn0.HO6VfKIceDfUXssMGQoJcLh-hAOKUwx2sXE9WnHbdec",
+    "created_at": "2026-06-06T01:20:01.159Z",
+    "expires_at": "2026-06-07T01:20:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 124,
+  "fields": {
+    "user": 3,
+    "jti": "7f2ffd8ada27458ba29ae0d6c5d5d9e7",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDc5NTIwMSwiaWF0IjoxNzgwNzA4ODAxLCJqdGkiOiI3ZjJmZmQ4YWRhMjc0NThiYTI5YWUwZDZjNWQ1ZDllNyIsInVzZXJfaWQiOiIzIn0.fyX9kSvGgul0bzDmuPI7ILFNVPcGfkx2Cx25S6XbljY",
+    "created_at": "2026-06-06T01:20:01.165Z",
+    "expires_at": "2026-06-07T01:20:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 125,
+  "fields": {
+    "user": 3,
+    "jti": "53c1c26e7eba4e2e8830849b305136df",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg0NTg3OSwiaWF0IjoxNzgwNzU5NDc5LCJqdGkiOiI1M2MxYzI2ZTdlYmE0ZTJlODgzMDg0OWIzMDUxMzZkZiIsInVzZXJfaWQiOiIzIn0.fb5imG0M_ZeQceJJ8Da9sQ66Ezf_5XysDSS0uKMdQgw",
+    "created_at": "2026-06-06T15:24:39.752Z",
+    "expires_at": "2026-06-07T15:24:39Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 126,
+  "fields": {
+    "user": 23,
+    "jti": "f92f11084aeb40408f3f3e1699fc7647",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg0NTk3MiwiaWF0IjoxNzgwNzU5NTcyLCJqdGkiOiJmOTJmMTEwODRhZWI0MDQwOGYzZjNlMTY5OWZjNzY0NyIsInVzZXJfaWQiOiIyMyJ9._Chum5xnn3qSVYQgrt49EjJu1OypSW-9ke9TIDrt5xk",
+    "created_at": "2026-06-06T15:26:12.544Z",
+    "expires_at": "2026-06-07T15:26:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 127,
+  "fields": {
+    "user": 23,
+    "jti": "c5e5cb5fc8204b558d185ce848a66d68",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg0NjA5MCwiaWF0IjoxNzgwNzU5NjkwLCJqdGkiOiJjNWU1Y2I1ZmM4MjA0YjU1OGQxODVjZTg0OGE2NmQ2OCIsInVzZXJfaWQiOiIyMyJ9.xt5ow0a8URkXWWmaiU7tC7ll0ZhYIbnWuA1R-WT8ZEA",
+    "created_at": "2026-06-06T15:28:10.635Z",
+    "expires_at": "2026-06-07T15:28:10Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 128,
+  "fields": {
+    "user": 23,
+    "jti": "3d44f88693fa430891a92c233ca24dd2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MjI3OSwiaWF0IjoxNzgwNzc1ODc5LCJqdGkiOiIzZDQ0Zjg4NjkzZmE0MzA4OTFhOTJjMjMzY2EyNGRkMiIsInVzZXJfaWQiOiIyMyJ9.v6TNE4Yso6ltt8ONTbpQ8UrayJj0KWZDPaXSLCMcUyc",
+    "created_at": "2026-06-06T19:57:59.366Z",
+    "expires_at": "2026-06-07T19:57:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 129,
+  "fields": {
+    "user": 3,
+    "jti": "017821868bc341beb3cc4192794f755f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MjQzMCwiaWF0IjoxNzgwNzc2MDMwLCJqdGkiOiIwMTc4MjE4NjhiYzM0MWJlYjNjYzQxOTI3OTRmNzU1ZiIsInVzZXJfaWQiOiIzIn0.5qlp2b6wyhrnkcXCLFAyaB7EoFmWIzWp9s3KeI_6lSM",
+    "created_at": "2026-06-06T20:00:30.706Z",
+    "expires_at": "2026-06-07T20:00:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 130,
+  "fields": {
+    "user": 7,
+    "jti": "6cb6a007cdea46b494c8cbbd0fdfdf0a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MjQ1OCwiaWF0IjoxNzgwNzc2MDU4LCJqdGkiOiI2Y2I2YTAwN2NkZWE0NmI0OTRjOGNiYmQwZmRmZGYwYSIsInVzZXJfaWQiOiI3In0.gjmfqAkx8Vom_fLxtoIPQA2OU2zkxboocJc4ShLPdgw",
+    "created_at": "2026-06-06T20:00:58.052Z",
+    "expires_at": "2026-06-07T20:00:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 131,
+  "fields": {
+    "user": 7,
+    "jti": "bafbba569a7c43a888a2768c599469a6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MzEwNiwiaWF0IjoxNzgwNzc2NzA2LCJqdGkiOiJiYWZiYmE1NjlhN2M0M2E4ODhhMjc2OGM1OTk0NjlhNiIsInVzZXJfaWQiOiI3In0.AbcvBBWBM23I73LuUryrFgDhDwlOSmJnGuweCfcnLYI",
+    "created_at": "2026-06-06T20:11:46.367Z",
+    "expires_at": "2026-06-07T20:11:46Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 132,
+  "fields": {
+    "user": 7,
+    "jti": "89f1e002c1fb4dc7a4514ff4f9914eec",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MzEwNiwiaWF0IjoxNzgwNzc2NzA2LCJqdGkiOiI4OWYxZTAwMmMxZmI0ZGM3YTQ1MTRmZjRmOTkxNGVlYyIsInVzZXJfaWQiOiI3In0.yEi8kRthwxBZOr25eT3pnINw9kD5Rn9dpsnaQu3TulE",
+    "created_at": "2026-06-06T20:11:46.369Z",
+    "expires_at": "2026-06-07T20:11:46Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 133,
+  "fields": {
+    "user": 7,
+    "jti": "8fe14bc7aafb4a7589277de6d13b72cf",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2MzUwMSwiaWF0IjoxNzgwNzc3MTAxLCJqdGkiOiI4ZmUxNGJjN2FhZmI0YTc1ODkyNzdkZTZkMTNiNzJjZiIsInVzZXJfaWQiOiI3In0.uRJYUhffL12pLoJ6LLdnBdcjJM6GFruemYB0tYJs6hc",
+    "created_at": "2026-06-06T20:18:21.008Z",
+    "expires_at": "2026-06-07T20:18:21Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 134,
+  "fields": {
+    "user": 7,
+    "jti": "aaef5980207a4f61920114061dce9f5c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NDM0MCwiaWF0IjoxNzgwNzc3OTQwLCJqdGkiOiJhYWVmNTk4MDIwN2E0ZjYxOTIwMTE0MDYxZGNlOWY1YyIsInVzZXJfaWQiOiI3In0.pAsvW74kixtQQXVRcWEK0LFpY3aMzMq2XhjE4sdIbvk",
+    "created_at": "2026-06-06T20:32:20.959Z",
+    "expires_at": "2026-06-07T20:32:20Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 135,
+  "fields": {
+    "user": 23,
+    "jti": "8a271e24c52d40ad80223003283fd599",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NDY4MSwiaWF0IjoxNzgwNzc4MjgxLCJqdGkiOiI4YTI3MWUyNGM1MmQ0MGFkODAyMjMwMDMyODNmZDU5OSIsInVzZXJfaWQiOiIyMyJ9.A6joDqRB_6IPJLIoDav3kIsyU2-aP30fRgsfMOG2StY",
+    "created_at": "2026-06-06T20:38:01.794Z",
+    "expires_at": "2026-06-07T20:38:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 136,
+  "fields": {
+    "user": 7,
+    "jti": "ab24530d2e394d46be7b52bf1016c713",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NDcxMSwiaWF0IjoxNzgwNzc4MzExLCJqdGkiOiJhYjI0NTMwZDJlMzk0ZDQ2YmU3YjUyYmYxMDE2YzcxMyIsInVzZXJfaWQiOiI3In0.F2QLWikwDjKnCgTu4ugQa03r4wjW24YRMceftWeHiYE",
+    "created_at": "2026-06-06T20:38:31.488Z",
+    "expires_at": "2026-06-07T20:38:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 137,
+  "fields": {
+    "user": 3,
+    "jti": "160cfab4d30a40a9920e606061eb6d00",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NTAyMiwiaWF0IjoxNzgwNzc4NjIyLCJqdGkiOiIxNjBjZmFiNGQzMGE0MGE5OTIwZTYwNjA2MWViNmQwMCIsInVzZXJfaWQiOiIzIn0.DeyCLyeCuQ0pFfgHt_T0EWrS6Wsus5cjh_r8irZ_MhA",
+    "created_at": "2026-06-06T20:43:42.175Z",
+    "expires_at": "2026-06-07T20:43:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 138,
+  "fields": {
+    "user": 3,
+    "jti": "81e3e3dcc6c6483ab7d5904ef2fd5286",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzM5OCwiaWF0IjoxNzgwNzgwOTk4LCJqdGkiOiI4MWUzZTNkY2M2YzY0ODNhYjdkNTkwNGVmMmZkNTI4NiIsInVzZXJfaWQiOiIzIn0.ckjZuuyTEKWbqyTPSftOBECgS4siPJNf2ph64ICYscE",
+    "created_at": "2026-06-06T21:23:18.232Z",
+    "expires_at": "2026-06-07T21:23:18Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 139,
+  "fields": {
+    "user": 23,
+    "jti": "4b6b00d92a5b4318a42a60f619f21cea",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzUyOCwiaWF0IjoxNzgwNzgxMTI4LCJqdGkiOiI0YjZiMDBkOTJhNWI0MzE4YTQyYTYwZjYxOWYyMWNlYSIsInVzZXJfaWQiOiIyMyJ9._53W3vLWqvKtJaJ66s-4jE4nob3AABCMf77vgp6SGsc",
+    "created_at": "2026-06-06T21:25:28.273Z",
+    "expires_at": "2026-06-07T21:25:28Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 140,
+  "fields": {
+    "user": 7,
+    "jti": "9771183fd6f944fc866ce9bbd6531df6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzU2MiwiaWF0IjoxNzgwNzgxMTYyLCJqdGkiOiI5NzcxMTgzZmQ2Zjk0NGZjODY2Y2U5YmJkNjUzMWRmNiIsInVzZXJfaWQiOiI3In0.YOsZmd2VhM3jgbI9pwTSPnplJ_LnahUCxKam_WHw2kg",
+    "created_at": "2026-06-06T21:26:02.173Z",
+    "expires_at": "2026-06-07T21:26:02Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 141,
+  "fields": {
+    "user": 23,
+    "jti": "7258df384263460cbb6e6d772b832d3c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzYyOSwiaWF0IjoxNzgwNzgxMjI5LCJqdGkiOiI3MjU4ZGYzODQyNjM0NjBjYmI2ZTZkNzcyYjgzMmQzYyIsInVzZXJfaWQiOiIyMyJ9.vuo9s87OvOSL5ajDbnT2eVHOs0WPXSd2vW52DWcSoTQ",
+    "created_at": "2026-06-06T21:27:09.805Z",
+    "expires_at": "2026-06-07T21:27:09Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 142,
+  "fields": {
+    "user": 23,
+    "jti": "484ea5995ecb4291b38b875486077f73",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzY4NywiaWF0IjoxNzgwNzgxMjg3LCJqdGkiOiI0ODRlYTU5OTVlY2I0MjkxYjM4Yjg3NTQ4NjA3N2Y3MyIsInVzZXJfaWQiOiIyMyJ9.SefdMDl-kVwohlr7ZSUR3cCyTwX-he9aJIVLu57x3LI",
+    "created_at": "2026-06-06T21:28:07.440Z",
+    "expires_at": "2026-06-07T21:28:07Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 143,
+  "fields": {
+    "user": 3,
+    "jti": "3712480e4c9c462f8f6d6888e6f99e93",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2NzY5NiwiaWF0IjoxNzgwNzgxMjk2LCJqdGkiOiIzNzEyNDgwZTRjOWM0NjJmOGY2ZDY4ODhlNmY5OWU5MyIsInVzZXJfaWQiOiIzIn0.YsJftvU98OtFuaEWDhBgS5knDSFO1B2qaYAvEAbXedU",
+    "created_at": "2026-06-06T21:28:16.330Z",
+    "expires_at": "2026-06-07T21:28:16Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 144,
+  "fields": {
+    "user": 3,
+    "jti": "98ebc3bfb1bb442c9e77e15a476efbda",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2ODMwMCwiaWF0IjoxNzgwNzgxOTAwLCJqdGkiOiI5OGViYzNiZmIxYmI0NDJjOWU3N2UxNWE0NzZlZmJkYSIsInVzZXJfaWQiOiIzIn0.TTfHUH--7DIQ4aWy4O_Bdh-hN09RbnuqIoorJW9PaFU",
+    "created_at": "2026-06-06T21:38:20.547Z",
+    "expires_at": "2026-06-07T21:38:20Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 145,
+  "fields": {
+    "user": 3,
+    "jti": "0f5eb8218f5b43cf9ec9e0a82086d23f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTExMCwiaWF0IjoxNzgwNzgyNzEwLCJqdGkiOiIwZjVlYjgyMThmNWI0M2NmOWVjOWUwYTgyMDg2ZDIzZiIsInVzZXJfaWQiOiIzIn0.Xdwdm_S13S0mHGH1h_K4FHNaz1eaUs4VNwnqfOc6hp8",
+    "created_at": "2026-06-06T21:51:50.759Z",
+    "expires_at": "2026-06-07T21:51:50Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 146,
+  "fields": {
+    "user": 3,
+    "jti": "c57b7c6090504cf488e7947a0a655ee0",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTEyMiwiaWF0IjoxNzgwNzgyNzIyLCJqdGkiOiJjNTdiN2M2MDkwNTA0Y2Y0ODhlNzk0N2EwYTY1NWVlMCIsInVzZXJfaWQiOiIzIn0.vzwVdnFifZ7LO6ADQnmbEWEaa_-zvOyESVhnJI62bKI",
+    "created_at": "2026-06-06T21:52:02.591Z",
+    "expires_at": "2026-06-07T21:52:02Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 147,
+  "fields": {
+    "user": 3,
+    "jti": "ee4a0d2ae2ff43339358e36bc1fa90ca",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTEzMSwiaWF0IjoxNzgwNzgyNzMxLCJqdGkiOiJlZTRhMGQyYWUyZmY0MzMzOTM1OGUzNmJjMWZhOTBjYSIsInVzZXJfaWQiOiIzIn0.RNEChIiwmrWwX14P0H-BLnxPV8xIwiQzpsOi5e0zFPo",
+    "created_at": "2026-06-06T21:52:11.928Z",
+    "expires_at": "2026-06-07T21:52:11Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 148,
+  "fields": {
+    "user": 3,
+    "jti": "49321822a70743ca87106f6fad63ca2c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTE2NCwiaWF0IjoxNzgwNzgyNzY0LCJqdGkiOiI0OTMyMTgyMmE3MDc0M2NhODcxMDZmNmZhZDYzY2EyYyIsInVzZXJfaWQiOiIzIn0.DHSDszWX7wd9ADwLl5Un99_lVsFUSnaZN2eVUzzx4sU",
+    "created_at": "2026-06-06T21:52:44.133Z",
+    "expires_at": "2026-06-07T21:52:44Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 149,
+  "fields": {
+    "user": 3,
+    "jti": "146aa8ba18af413ea007e004faae0612",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTM3MCwiaWF0IjoxNzgwNzgyOTcwLCJqdGkiOiIxNDZhYThiYTE4YWY0MTNlYTAwN2UwMDRmYWFlMDYxMiIsInVzZXJfaWQiOiIzIn0.f7gBCV2y0cbpZuIkLOAgteMygjNYp25QS8HvGwfP-5Y",
+    "created_at": "2026-06-06T21:56:10.211Z",
+    "expires_at": "2026-06-07T21:56:10Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 150,
+  "fields": {
+    "user": 3,
+    "jti": "6e4a463f18d94ed9af84cc7cad705956",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTYwMSwiaWF0IjoxNzgwNzgzMjAxLCJqdGkiOiI2ZTRhNDYzZjE4ZDk0ZWQ5YWY4NGNjN2NhZDcwNTk1NiIsInVzZXJfaWQiOiIzIn0.vhXxbJW9qjl0xjpcDUvCocyDsrGDOVPxGqKrs4W7xyY",
+    "created_at": "2026-06-06T22:00:01.490Z",
+    "expires_at": "2026-06-07T22:00:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 151,
+  "fields": {
+    "user": 23,
+    "jti": "711d08b940974490bf02953f52463de7",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg2OTYwOSwiaWF0IjoxNzgwNzgzMjA5LCJqdGkiOiI3MTFkMDhiOTQwOTc0NDkwYmYwMjk1M2Y1MjQ2M2RlNyIsInVzZXJfaWQiOiIyMyJ9.eCYUJrmrTphbEvBayqk54PPoXJRg0DG8mwwRWprmBLY",
+    "created_at": "2026-06-06T22:00:09.704Z",
+    "expires_at": "2026-06-07T22:00:09Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 152,
+  "fields": {
+    "user": 23,
+    "jti": "b005e9df3bb9433d86dfba34ba8fd33e",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDg3MTU3OCwiaWF0IjoxNzgwNzg1MTc4LCJqdGkiOiJiMDA1ZTlkZjNiYjk0MzNkODZkZmJhMzRiYThmZDMzZSIsInVzZXJfaWQiOiIyMyJ9.HVNzn-uatyV1278NJhvIE_4lmVpyLnTExOvNLF1je8s",
+    "created_at": "2026-06-06T22:32:58.024Z",
+    "expires_at": "2026-06-07T22:32:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 153,
+  "fields": {
+    "user": 23,
+    "jti": "e530e98fe73047a2a4d152af7bf331c3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkyNzIzNSwiaWF0IjoxNzgwODQwODM1LCJqdGkiOiJlNTMwZTk4ZmU3MzA0N2EyYTRkMTUyYWY3YmYzMzFjMyIsInVzZXJfaWQiOiIyMyJ9.ujtoaPEqMbM1ZrNCVuXAmFnt2cGkjhKsvn0LISFNQp0",
+    "created_at": "2026-06-07T14:00:35.247Z",
+    "expires_at": "2026-06-08T14:00:35Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 154,
+  "fields": {
+    "user": 23,
+    "jti": "251366efc4e040679a65a052ef229490",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkzNjg3NSwiaWF0IjoxNzgwODUwNDc1LCJqdGkiOiIyNTEzNjZlZmM0ZTA0MDY3OWE2NWEwNTJlZjIyOTQ5MCIsInVzZXJfaWQiOiIyMyJ9.wzlOQsOEF9lcOUBlVH-ywN9w6BeV2be2nF0kpE0ifpo",
+    "created_at": "2026-06-07T16:41:15.661Z",
+    "expires_at": "2026-06-08T16:41:15Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 155,
+  "fields": {
+    "user": 23,
+    "jti": "412b0124bb2f4cf0b9557cc97c22a221",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkzNzg2OCwiaWF0IjoxNzgwODUxNDY4LCJqdGkiOiI0MTJiMDEyNGJiMmY0Y2YwYjk1NTdjYzk3YzIyYTIyMSIsInVzZXJfaWQiOiIyMyJ9.wKA_Fk01rpmUfpuLKdw4WYslJlfMQFfVuf8JYD1x2mE",
+    "created_at": "2026-06-07T16:57:48.983Z",
+    "expires_at": "2026-06-08T16:57:48Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 156,
+  "fields": {
+    "user": 23,
+    "jti": "d99c37b27a644d0e89b5ae3a559020c8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkzODEyNywiaWF0IjoxNzgwODUxNzI3LCJqdGkiOiJkOTljMzdiMjdhNjQ0ZDBlODliNWFlM2E1NTkwMjBjOCIsInVzZXJfaWQiOiIyMyJ9.AG4MCXwsKNp1sKn6_OPwq7qFUc0os5f2o4xMm0LpbX8",
+    "created_at": "2026-06-07T17:02:07.124Z",
+    "expires_at": "2026-06-08T17:02:07Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 157,
+  "fields": {
+    "user": 7,
+    "jti": "2666aa1baea84df5be89da7fdcd48d76",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkzODEzNiwiaWF0IjoxNzgwODUxNzM2LCJqdGkiOiIyNjY2YWExYmFlYTg0ZGY1YmU4OWRhN2ZkY2Q0OGQ3NiIsInVzZXJfaWQiOiI3In0.uhkglBCLarYt8TvPwqvPwpSwuWrRqnA89oWG7hF5Bzg",
+    "created_at": "2026-06-07T17:02:16.416Z",
+    "expires_at": "2026-06-08T17:02:16Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 158,
+  "fields": {
+    "user": 3,
+    "jti": "587a70b12ea8414980fc78c0120b8030",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4MDkzODE1NywiaWF0IjoxNzgwODUxNzU3LCJqdGkiOiI1ODdhNzBiMTJlYTg0MTQ5ODBmYzc4YzAxMjBiODAzMCIsInVzZXJfaWQiOiIzIn0.ajGsNgwtCKtwvVuJ46-MzteEbHNBoCbe0FMSX_j1J7U",
+    "created_at": "2026-06-07T17:02:37.836Z",
+    "expires_at": "2026-06-08T17:02:37Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 1,
+  "fields": {
+    "token": 2,
+    "blacklisted_at": "2026-06-04T06:19:54.945Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 2,
+  "fields": {
+    "token": 11,
+    "blacklisted_at": "2026-06-04T13:26:05.736Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 4,
+  "fields": {
+    "token": 15,
+    "blacklisted_at": "2026-06-04T13:42:55.845Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 6,
+  "fields": {
+    "token": 22,
+    "blacklisted_at": "2026-06-04T14:37:48.161Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 8,
+  "fields": {
+    "token": 25,
+    "blacklisted_at": "2026-06-04T14:59:51.555Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 9,
+  "fields": {
+    "token": 35,
+    "blacklisted_at": "2026-06-04T16:04:51.309Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 11,
+  "fields": {
+    "token": 41,
+    "blacklisted_at": "2026-06-04T16:32:28.011Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 13,
+  "fields": {
+    "token": 44,
+    "blacklisted_at": "2026-06-04T17:03:29.599Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 15,
+  "fields": {
+    "token": 47,
+    "blacklisted_at": "2026-06-04T17:14:04.473Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 17,
+  "fields": {
+    "token": 52,
+    "blacklisted_at": "2026-06-04T17:44:03.616Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 19,
+  "fields": {
+    "token": 60,
+    "blacklisted_at": "2026-06-05T14:26:21.929Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 21,
+  "fields": {
+    "token": 63,
+    "blacklisted_at": "2026-06-05T14:43:31.312Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 23,
+  "fields": {
+    "token": 66,
+    "blacklisted_at": "2026-06-05T15:02:30.404Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 25,
+  "fields": {
+    "token": 72,
+    "blacklisted_at": "2026-06-05T15:45:12.377Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 27,
+  "fields": {
+    "token": 75,
+    "blacklisted_at": "2026-06-05T16:10:09.957Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 28,
+  "fields": {
+    "token": 77,
+    "blacklisted_at": "2026-06-05T16:20:49.692Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 30,
+  "fields": {
+    "token": 82,
+    "blacklisted_at": "2026-06-05T17:32:51.624Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 32,
+  "fields": {
+    "token": 89,
+    "blacklisted_at": "2026-06-05T19:03:22.448Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 34,
+  "fields": {
+    "token": 92,
+    "blacklisted_at": "2026-06-05T19:59:19.829Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 37,
+  "fields": {
+    "token": 95,
+    "blacklisted_at": "2026-06-05T21:16:01.571Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 38,
+  "fields": {
+    "token": 101,
+    "blacklisted_at": "2026-06-05T21:52:25.209Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 40,
+  "fields": {
+    "token": 106,
+    "blacklisted_at": "2026-06-05T22:46:31.753Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 41,
+  "fields": {
+    "token": 108,
+    "blacklisted_at": "2026-06-05T22:58:39.013Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 43,
+  "fields": {
+    "token": 111,
+    "blacklisted_at": "2026-06-05T23:22:56.521Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 45,
+  "fields": {
+    "token": 122,
+    "blacklisted_at": "2026-06-06T01:20:01.180Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 47,
+  "fields": {
+    "token": 130,
+    "blacklisted_at": "2026-06-06T20:11:46.398Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 49,
+  "fields": {
+    "token": 143,
+    "blacklisted_at": "2026-06-06T21:38:20.558Z"
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$tEqjvawJ4QtdnyndaZMMwf$WcRLYWN+UwrexJx4+TCkk1dnj9eMPzL/Ad8StxqoWQs=",
+    "last_login": "2026-06-04T13:39:37.171Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Daniel",
+    "last_name": "Maroy",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-09T21:47:50Z",
+    "role": "ADMIN",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$6DZar8BYRVbL8PWNNswNLd$99rLEsyleDQeeNPstJxw8O27pNpiaCcPGdU67R3CxGE=",
+    "last_login": "2026-05-29T04:21:52.972Z",
+    "is_superuser": false,
+    "username": "john",
+    "first_name": "",
+    "last_name": "",
+    "email": "example@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T22:17:10.959Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$w0qowRkdc6Rn5dLKwCrBZu$eBmMh162+TnWHRAGwHWxAJJnH2uSvchqyGfi3IKeWV0=",
+    "last_login": "2026-05-28T22:09:32.079Z",
+    "is_superuser": false,
+    "username": "sara",
+    "first_name": "",
+    "last_name": "",
+    "email": "sara@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T00:56:18.311Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$bp9kfkQECwA1RkPMmm90Ex$PadxfLQQsiMQmIOU0082CXlWmOq90LuO1z6XSm2TJz0=",
+    "last_login": "2026-05-10T02:39:32.618Z",
+    "is_superuser": false,
+    "username": "Mike",
+    "first_name": "",
+    "last_name": "",
+    "email": "mike@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T00:58:34.258Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$vyamxtfs4ShTCxyHruEpM0$qbVrKeQjPCPEttzZc5d11RqP8T7s2T2rddJ+3oMFVlM=",
+    "last_login": "2026-06-05T14:13:32.196Z",
+    "is_superuser": false,
+    "username": "teacher1",
+    "first_name": "",
+    "last_name": "",
+    "email": "teacher1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T17:39:02Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$NTP9dWVFy2SjHAhJ2dsX4J$mOlXx/cNCcaLaip15mim8kkwOiXQgxNIppLmQAY8+Q0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mary_teacher",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T22:46:31.063Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$BBP2Xk2clOSPqjFHfxlbyg$8WkAcYFVxMu+7Ua+6+a4H+J4eQy1YFg0RHRqBnEEa40=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "john_student",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T22:46:31.928Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$4h0XIIrjgMmNMMDwUEUOax$I67DNNoByK7TkZB8VTQElkrtyWkOAWIMeLGxtyo1+Fg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mary_student",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T22:46:32.762Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$TmaCLlApLH7BkHey4YLflm$ct0iKUBzyGN2mA+K0TCTuxPbidEqut/D7h8l7XuIzv0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "alex_student",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T22:46:33.552Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 13,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "john_smith",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.694Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 14,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mary_jones",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.698Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 15,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "david_wilson",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.704Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 16,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sarah_brown",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.708Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 17,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "james_miller",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.712Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 18,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "emma_davis",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55.718Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 19,
+  "fields": {
+    "password": "password1234",
+    "last_login": "2026-05-29T03:11:45Z",
+    "is_superuser": false,
+    "username": "michael_clark",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 20,
+  "fields": {
+    "password": "password1234",
+    "last_login": "2026-05-29T03:11:45Z",
+    "is_superuser": false,
+    "username": "olivia_white",
+    "first_name": "Olivia",
+    "last_name": "white",
+    "email": "olivia@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T23:40:55Z",
+    "role": "STAFF",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$uomi5Tf29ljzSlOPM4H78d$nx2VOzlVMinrARy7K8oYbH850Jdn40RKVk/3nYpId6g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "michael_clarke",
+    "first_name": "",
+    "last_name": "",
+    "email": "maro0051@algonquinlive.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T05:45:59.685Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$jYxKao0knuDaRYv85VpVM2$n12h3fVLkWdC//Jc/Iwu1nqwI1RS/8VFaNLV+2UqmBA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "michael_clarkle",
+    "first_name": "",
+    "last_name": "",
+    "email": "maro0051@algonquinlive.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T06:06:08.644Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$dCIkLCU2bia9r2bDOkCUzg$7NenamgCLS9bfGF4bLtNE7sYeElK+glt64dsJaf5mgY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "michael_clarkle mart",
+    "first_name": "",
+    "last_name": "",
+    "email": "danepataoli@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T06:15:02.609Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$G6vZZeatkyKdeeku8nIJsc$3E7xQtHgzodwdiL699eTJWro4PewB0muReFIzdP6AEs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "james",
+    "first_name": "",
+    "last_name": "",
+    "email": "james.wilson@smarterp.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T12:53:18.688Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$sBRbAJGocD1XrtnPMyr41h$hTBl3TEerZcGz0IiNSkzDhGvL2KrT/b2l4WmWeAY4zA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "james muka",
+    "first_name": "",
+    "last_name": "",
+    "email": "james.wilson@smarterp.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T12:58:47.718Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fMpSVreA8CfwxGC7Wxrn0p$JFskkRT48qNV7OspD+Chd5eBc7fC60RD3ufFZYz8nwM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "johannes",
+    "first_name": "",
+    "last_name": "",
+    "email": "james.wilson@smarterp.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T12:59:08.092Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$DOmrUOcDjK5k3Z4SEm61Qu$UoyrgrndAK9nSXtnG1Dp8qCI9WHoStDM2hPkhpF//Kk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin2@algonquin.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "maro0051@algonquinlive.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T13:11:29.235Z",
+    "role": "STUDENT",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "academics.department",
+  "pk": 1,
+  "fields": {
+    "name": "Information technologies",
+    "code": "ITT"
+  }
+},
+{
+  "model": "academics.department",
+  "pk": 4,
+  "fields": {
+    "name": "Sciences",
+    "code": "SC"
+  }
+},
+{
+  "model": "academics.department",
+  "pk": 8,
+  "fields": {
+    "name": "Computer Science",
+    "code": "CS"
+  }
+},
+{
+  "model": "academics.department",
+  "pk": 9,
+  "fields": {
+    "name": "Business Administration",
+    "code": "BUS"
+  }
+},
+{
+  "model": "academics.department",
+  "pk": 10,
+  "fields": {
+    "name": "Job application",
+    "code": "JOB"
+  }
+},
+{
+  "model": "academics.subject",
+  "pk": 1,
+  "fields": {
+    "code": "CST101",
+    "name": "Python Programming",
+    "department": 1,
+    "credits": 3
+  }
+},
+{
+  "model": "academics.subject",
+  "pk": 2,
+  "fields": {
+    "code": "CST202",
+    "name": "Database Systems",
+    "department": 1,
+    "credits": 4
+  }
+},
+{
+  "model": "academics.instructor",
+  "pk": 1,
+  "fields": {
+    "full_name": "Dr. Smith",
+    "email": "smith@gmail.com",
+    "department": 1
+  }
+},
+{
+  "model": "academics.instructor",
+  "pk": 4,
+  "fields": {
+    "full_name": "Dr. Wilson",
+    "email": "wilson@gmail.com",
+    "department": 4
+  }
+},
+{
+  "model": "academics.staff",
+  "pk": 1,
+  "fields": {
+    "user": 7,
+    "employee_id": "EMP1001",
+    "department": 4,
+    "phone_number": "6139138377",
+    "address": "Ottawa 123",
+    "profile_picture": "staff_profiles/133887167143069534.jpg"
+  }
+},
+{
+  "model": "academics.staff",
+  "pk": 4,
+  "fields": {
+    "user": 27,
+    "employee_id": "EMP1002",
+    "department": 9,
+    "phone_number": null,
+    "address": null,
+    "profile_picture": ""
+  }
+},
+{
+  "model": "academics.semester",
+  "pk": 1,
+  "fields": {
+    "name": "Fall 2026",
+    "start_date": "2026-09-06",
+    "end_date": "2026-12-27",
+    "is_active": true
+  }
+},
+{
+  "model": "academics.semester",
+  "pk": 2,
+  "fields": {
+    "name": "winter 2027",
+    "start_date": "2027-01-03",
+    "end_date": "2027-04-25",
+    "is_active": false
+  }
+},
+{
+  "model": "academics.semester",
+  "pk": 3,
+  "fields": {
+    "name": "spring 2027",
+    "start_date": "2027-05-10",
+    "end_date": "2026-08-23",
+    "is_active": false
+  }
+},
+{
+  "model": "academics.semester",
+  "pk": 4,
+  "fields": {
+    "name": "Summer",
+    "start_date": "2026-06-10",
+    "end_date": "2026-10-24",
+    "is_active": false
+  }
+},
+{
+  "model": "academics.announcement",
+  "pk": 1,
+  "fields": {
+    "title": "Midterm Exams Begin Next Week",
+    "content": "All students must check exam schedules before Friday.",
+    "created_at": "2026-05-10T02:22:06.405Z",
+    "is_active": true
+  }
+},
+{
+  "model": "academics.announcement",
+  "pk": 2,
+  "fields": {
+    "title": "Course Registration Open",
+    "content": "Winter 2027 registration is now available.",
+    "created_at": "2026-05-10T02:22:53.900Z",
+    "is_active": true
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 2,
+  "fields": {
+    "name": "Nursing",
+    "code": "NUR2026",
+    "description": "advanced nursing for beginners",
+    "duration_years": 2,
+    "department": 4,
+    "created_at": "2026-05-28T22:26:06.825Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 4,
+  "fields": {
+    "name": "Bachelor of Business Administration",
+    "code": "BBA",
+    "description": "BBA",
+    "duration_years": 4,
+    "department": 9,
+    "created_at": "2026-05-28T22:46:30.135Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 6,
+  "fields": {
+    "name": "Human Resource Management",
+    "code": "HRM",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:29:12.366Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 7,
+  "fields": {
+    "name": "Marketing Management",
+    "code": "MKT",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:29:12.373Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 8,
+  "fields": {
+    "name": "Accounting",
+    "code": "ACC",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:29:12.382Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 9,
+  "fields": {
+    "name": "Finance",
+    "code": "FIN",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:29:12.389Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 10,
+  "fields": {
+    "name": "International Business",
+    "code": "IB",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:29:12.399Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 11,
+  "fields": {
+    "name": "Bachelor of Computer Science",
+    "code": "BCS",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.405Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 12,
+  "fields": {
+    "name": "Software Development",
+    "code": "SD",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.413Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 13,
+  "fields": {
+    "name": "Data Science",
+    "code": "DS",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.421Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 14,
+  "fields": {
+    "name": "Cybersecurity",
+    "code": "CYB",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.431Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 15,
+  "fields": {
+    "name": "Artificial Intelligence",
+    "code": "AI",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.437Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 16,
+  "fields": {
+    "name": "Information Technology   2",
+    "code": "ITT",
+    "description": "",
+    "duration_years": 2,
+    "department": 8,
+    "created_at": "2026-05-28T23:29:12.445Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 17,
+  "fields": {
+    "name": "Network Administration",
+    "code": "NET",
+    "description": "",
+    "duration_years": 2,
+    "department": 1,
+    "created_at": "2026-05-28T23:29:12.453Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 18,
+  "fields": {
+    "name": "Cloud Computing",
+    "code": "CLD",
+    "description": "",
+    "duration_years": 2,
+    "department": 1,
+    "created_at": "2026-05-28T23:29:12.462Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 19,
+  "fields": {
+    "name": "Systems Administration",
+    "code": "SYS",
+    "description": "",
+    "duration_years": 2,
+    "department": 1,
+    "created_at": "2026-05-28T23:29:12.469Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 20,
+  "fields": {
+    "name": "Biology",
+    "code": "BIO",
+    "description": "",
+    "duration_years": 2,
+    "department": 4,
+    "created_at": "2026-05-28T23:29:12.478Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 21,
+  "fields": {
+    "name": "Chemistry",
+    "code": "CHE",
+    "description": "",
+    "duration_years": 2,
+    "department": 4,
+    "created_at": "2026-05-28T23:29:12.485Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 22,
+  "fields": {
+    "name": "Physics",
+    "code": "PHY",
+    "description": "",
+    "duration_years": 2,
+    "department": 4,
+    "created_at": "2026-05-28T23:29:12.494Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 23,
+  "fields": {
+    "name": "Environmental Science",
+    "code": "ENV",
+    "description": "",
+    "duration_years": 2,
+    "department": 4,
+    "created_at": "2026-05-28T23:29:12.501Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 24,
+  "fields": {
+    "name": "Entrepreneurship",
+    "code": "ENT",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:32:39.400Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 25,
+  "fields": {
+    "name": "Supply Chain Management",
+    "code": "SCM",
+    "description": "",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:32:39.410Z"
+  }
+},
+{
+  "model": "academics.program",
+  "pk": 26,
+  "fields": {
+    "name": "Project Management",
+    "code": "PM",
+    "description": "project",
+    "duration_years": 2,
+    "department": 9,
+    "created_at": "2026-05-28T23:32:39.416Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 1,
+  "fields": {
+    "user": 4,
+    "student_id": "S1001",
+    "department": 1,
+    "program": 12,
+    "phone_number": "6139138375",
+    "address": "toronto",
+    "profile_number": null,
+    "profile_picture": "staff_profiles/133892992627678770.jpg",
+    "date_of_birth": "1994-06-21",
+    "emergency_contact": null,
+    "created_at": "2026-05-10T01:08:23.984Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 2,
+  "fields": {
+    "user": 5,
+    "student_id": "STU20261112",
+    "department": 1,
+    "program": 14,
+    "phone_number": "6139138444",
+    "address": "Ottawa",
+    "profile_number": null,
+    "profile_picture": "staff_profiles/133900453985614579_WtZNPcV.jpg",
+    "date_of_birth": "1996-06-13",
+    "emergency_contact": null,
+    "created_at": "2026-05-10T01:09:02.139Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "student_id": "S1003",
+    "department": 1,
+    "program": 16,
+    "phone_number": null,
+    "address": "Montreal",
+    "profile_number": null,
+    "profile_picture": "",
+    "date_of_birth": null,
+    "emergency_contact": null,
+    "created_at": "2026-05-10T01:10:03.314Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 4,
+  "fields": {
+    "user": 10,
+    "student_id": "2026001",
+    "department": 8,
+    "program": 4,
+    "phone_number": "9023333333",
+    "address": "Halifax",
+    "profile_number": null,
+    "profile_picture": "",
+    "date_of_birth": null,
+    "emergency_contact": null,
+    "created_at": "2026-05-28T22:46:34.343Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 5,
+  "fields": {
+    "user": 11,
+    "student_id": "2026002",
+    "department": 8,
+    "program": 4,
+    "phone_number": "9024444444",
+    "address": "Dartmouth",
+    "profile_number": null,
+    "profile_picture": "",
+    "date_of_birth": null,
+    "emergency_contact": null,
+    "created_at": "2026-05-28T22:46:34.348Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 8,
+  "fields": {
+    "user": 22,
+    "student_id": "STU20266003",
+    "department": 9,
+    "program": 6,
+    "phone_number": null,
+    "address": null,
+    "profile_number": null,
+    "profile_picture": "",
+    "date_of_birth": null,
+    "emergency_contact": null,
+    "created_at": "2026-06-03T06:06:09.822Z"
+  }
+},
+{
+  "model": "academics.student",
+  "pk": 9,
+  "fields": {
+    "user": 23,
+    "student_id": "STU20266004",
+    "department": 8,
+    "program": 14,
+    "phone_number": "12345678",
+    "address": "123 west",
+    "profile_number": null,
+    "profile_picture": "staff_profiles/133900453985614579_Lcgdo7V.jpg",
+    "date_of_birth": null,
+    "emergency_contact": "234234579",
+    "created_at": "2026-06-03T06:15:03.983Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 5,
+  "fields": {
+    "code": "HLT110",
+    "name": "Human Anatomy",
+    "instructor": 4,
+    "department": 4,
+    "program": 2,
+    "semester": 1,
+    "credits": 3,
+    "schedule": "Friday 8AM - 10AM",
+    "room": "H105",
+    "capacity": 35,
+    "created_at": "2026-05-10T00:51:48.722Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 6,
+  "fields": {
+    "code": "CS101",
+    "name": "Introduction to Programming",
+    "instructor": 1,
+    "department": 8,
+    "program": 16,
+    "semester": null,
+    "credits": 3,
+    "schedule": "Monday 10AM - 12PM",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T22:46:31.907Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 7,
+  "fields": {
+    "code": "CS201",
+    "name": "Database Systems",
+    "instructor": null,
+    "department": 8,
+    "program": 4,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T22:46:31.911Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 8,
+  "fields": {
+    "code": "BUS101",
+    "name": "Introduction to Business",
+    "instructor": 1,
+    "department": 9,
+    "program": 4,
+    "semester": 1,
+    "credits": 12,
+    "schedule": "Wednesday 9AM - 11AM",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:27:03.790Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 9,
+  "fields": {
+    "code": "BUS102",
+    "name": "Business Communication",
+    "instructor": null,
+    "department": 9,
+    "program": 4,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.548Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 10,
+  "fields": {
+    "code": "BUS201",
+    "name": "Principles of Management",
+    "instructor": null,
+    "department": 9,
+    "program": 4,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.556Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 11,
+  "fields": {
+    "code": "HRM101",
+    "name": "Human Resource Management",
+    "instructor": null,
+    "department": 9,
+    "program": 6,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.561Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 12,
+  "fields": {
+    "code": "HRM201",
+    "name": "Recruitment and Selection",
+    "instructor": null,
+    "department": 9,
+    "program": 6,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.567Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 13,
+  "fields": {
+    "code": "HRM301",
+    "name": "Labour Relations",
+    "instructor": null,
+    "department": 9,
+    "program": 6,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.572Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 14,
+  "fields": {
+    "code": "MKT101",
+    "name": "Marketing Fundamentals",
+    "instructor": null,
+    "department": 9,
+    "program": 7,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.578Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 15,
+  "fields": {
+    "code": "MKT201",
+    "name": "Consumer Behaviour",
+    "instructor": null,
+    "department": 9,
+    "program": 7,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.583Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 16,
+  "fields": {
+    "code": "MKT301",
+    "name": "Digital Marketing",
+    "instructor": null,
+    "department": 9,
+    "program": 7,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.588Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 17,
+  "fields": {
+    "code": "ACC101",
+    "name": "Financial Accounting",
+    "instructor": null,
+    "department": 9,
+    "program": 8,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.593Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 18,
+  "fields": {
+    "code": "ACC201",
+    "name": "Managerial Accounting",
+    "instructor": null,
+    "department": 9,
+    "program": 8,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.597Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 19,
+  "fields": {
+    "code": "ACC301",
+    "name": "Auditing Principles",
+    "instructor": null,
+    "department": 9,
+    "program": 8,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.602Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 20,
+  "fields": {
+    "code": "FIN101",
+    "name": "Principles of Finance",
+    "instructor": null,
+    "department": 9,
+    "program": 9,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.607Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 21,
+  "fields": {
+    "code": "FIN201",
+    "name": "Investment Analysis",
+    "instructor": null,
+    "department": 9,
+    "program": 9,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.612Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 22,
+  "fields": {
+    "code": "FIN301",
+    "name": "Financial Management",
+    "instructor": null,
+    "department": 9,
+    "program": 9,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.617Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 23,
+  "fields": {
+    "code": "IB101",
+    "name": "International Business",
+    "instructor": null,
+    "department": 9,
+    "program": 10,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.623Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 24,
+  "fields": {
+    "code": "IB201",
+    "name": "Global Trade",
+    "instructor": null,
+    "department": 9,
+    "program": 10,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.627Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 25,
+  "fields": {
+    "code": "IB301",
+    "name": "International Marketing",
+    "instructor": null,
+    "department": 9,
+    "program": 10,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.631Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 26,
+  "fields": {
+    "code": "ENT101",
+    "name": "Entrepreneurship Fundamentals",
+    "instructor": null,
+    "department": 9,
+    "program": 24,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.638Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 27,
+  "fields": {
+    "code": "ENT201",
+    "name": "Small Business Management",
+    "instructor": null,
+    "department": 9,
+    "program": 24,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.641Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 28,
+  "fields": {
+    "code": "ENT301",
+    "name": "New Venture Creation",
+    "instructor": null,
+    "department": 9,
+    "program": 24,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.645Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 29,
+  "fields": {
+    "code": "SCM101",
+    "name": "Supply Chain Principles",
+    "instructor": null,
+    "department": 9,
+    "program": 25,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.652Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 30,
+  "fields": {
+    "code": "SCM201",
+    "name": "Logistics Management",
+    "instructor": null,
+    "department": 9,
+    "program": 25,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.655Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 31,
+  "fields": {
+    "code": "SCM301",
+    "name": "Procurement Management",
+    "instructor": null,
+    "department": 9,
+    "program": 25,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.659Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 32,
+  "fields": {
+    "code": "PM101",
+    "name": "Introduction to Project Management",
+    "instructor": null,
+    "department": 9,
+    "program": 26,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.664Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 33,
+  "fields": {
+    "code": "PM201",
+    "name": "Agile Project Management",
+    "instructor": null,
+    "department": 9,
+    "program": 26,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.669Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 34,
+  "fields": {
+    "code": "PM301",
+    "name": "Risk Management",
+    "instructor": null,
+    "department": 9,
+    "program": 26,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.673Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 35,
+  "fields": {
+    "code": "CS102",
+    "name": "Computer Systems",
+    "instructor": null,
+    "department": 8,
+    "program": 11,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.679Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 36,
+  "fields": {
+    "code": "SD101",
+    "name": "Web Development",
+    "instructor": null,
+    "department": 8,
+    "program": 12,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.687Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 37,
+  "fields": {
+    "code": "SD201",
+    "name": "Software Engineering",
+    "instructor": null,
+    "department": 8,
+    "program": 12,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.691Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 38,
+  "fields": {
+    "code": "SD301",
+    "name": "Mobile Application Development",
+    "instructor": null,
+    "department": 8,
+    "program": 12,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.696Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 39,
+  "fields": {
+    "code": "DS101",
+    "name": "Data Analysis",
+    "instructor": null,
+    "department": 8,
+    "program": 13,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.703Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 40,
+  "fields": {
+    "code": "DS201",
+    "name": "Data Visualization",
+    "instructor": null,
+    "department": 8,
+    "program": 13,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.708Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 41,
+  "fields": {
+    "code": "DS301",
+    "name": "Machine Learning Fundamentals",
+    "instructor": null,
+    "department": 8,
+    "program": 13,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.712Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 42,
+  "fields": {
+    "code": "CYB101",
+    "name": "Cybersecurity Fundamentals",
+    "instructor": null,
+    "department": 8,
+    "program": 14,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.719Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 43,
+  "fields": {
+    "code": "CYB201",
+    "name": "Ethical Hacking",
+    "instructor": null,
+    "department": 8,
+    "program": 14,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.742Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 44,
+  "fields": {
+    "code": "CYB301",
+    "name": "Network Security",
+    "instructor": null,
+    "department": 8,
+    "program": 14,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.760Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 45,
+  "fields": {
+    "code": "AI101",
+    "name": "Introduction to AI",
+    "instructor": null,
+    "department": 8,
+    "program": 15,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.768Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 46,
+  "fields": {
+    "code": "AI201",
+    "name": "Intelligent Systems",
+    "instructor": null,
+    "department": 8,
+    "program": 15,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.773Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 47,
+  "fields": {
+    "code": "AI301",
+    "name": "Deep Learning",
+    "instructor": null,
+    "department": 8,
+    "program": 15,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.777Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 48,
+  "fields": {
+    "code": "IT101",
+    "name": "Introduction to IT",
+    "instructor": null,
+    "department": 1,
+    "program": 16,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.785Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 49,
+  "fields": {
+    "code": "IT201",
+    "name": "Networking Fundamentals",
+    "instructor": null,
+    "department": 1,
+    "program": 16,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.790Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 50,
+  "fields": {
+    "code": "IT301",
+    "name": "Systems Administration",
+    "instructor": null,
+    "department": 1,
+    "program": 16,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.795Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 51,
+  "fields": {
+    "code": "NET101",
+    "name": "Computer Networks",
+    "instructor": null,
+    "department": 1,
+    "program": 17,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.802Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 52,
+  "fields": {
+    "code": "NET201",
+    "name": "Routing and Switching",
+    "instructor": null,
+    "department": 1,
+    "program": 17,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.806Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 53,
+  "fields": {
+    "code": "NET301",
+    "name": "Enterprise Networking",
+    "instructor": null,
+    "department": 1,
+    "program": 17,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.810Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 54,
+  "fields": {
+    "code": "CLD101",
+    "name": "Cloud Fundamentals",
+    "instructor": null,
+    "department": 1,
+    "program": 18,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.817Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 55,
+  "fields": {
+    "code": "CLD201",
+    "name": "Cloud Infrastructure",
+    "instructor": null,
+    "department": 1,
+    "program": 18,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.822Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 56,
+  "fields": {
+    "code": "CLD301",
+    "name": "Cloud Security",
+    "instructor": null,
+    "department": 1,
+    "program": 18,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.826Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 57,
+  "fields": {
+    "code": "SYS101",
+    "name": "Windows Administration",
+    "instructor": null,
+    "department": 1,
+    "program": 19,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.832Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 58,
+  "fields": {
+    "code": "SYS201",
+    "name": "Linux Administration",
+    "instructor": null,
+    "department": 1,
+    "program": 19,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.837Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 59,
+  "fields": {
+    "code": "SYS301",
+    "name": "Enterprise Systems",
+    "instructor": null,
+    "department": 1,
+    "program": 19,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.841Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 60,
+  "fields": {
+    "code": "BIO101",
+    "name": "Introduction to Biology",
+    "instructor": null,
+    "department": 4,
+    "program": 20,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.847Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 61,
+  "fields": {
+    "code": "BIO201",
+    "name": "Genetics",
+    "instructor": null,
+    "department": 4,
+    "program": 20,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.852Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 62,
+  "fields": {
+    "code": "BIO301",
+    "name": "Microbiology",
+    "instructor": null,
+    "department": 4,
+    "program": 20,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.857Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 63,
+  "fields": {
+    "code": "CHE101",
+    "name": "General Chemistry",
+    "instructor": null,
+    "department": 4,
+    "program": 21,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.862Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 64,
+  "fields": {
+    "code": "CHE201",
+    "name": "Organic Chemistry",
+    "instructor": null,
+    "department": 4,
+    "program": 21,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.867Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 65,
+  "fields": {
+    "code": "CHE301",
+    "name": "Analytical Chemistry",
+    "instructor": null,
+    "department": 4,
+    "program": 21,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.872Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 66,
+  "fields": {
+    "code": "PHY101",
+    "name": "Physics I",
+    "instructor": null,
+    "department": 4,
+    "program": 22,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.877Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 67,
+  "fields": {
+    "code": "PHY201",
+    "name": "Physics II",
+    "instructor": null,
+    "department": 4,
+    "program": 22,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.882Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 68,
+  "fields": {
+    "code": "PHY301",
+    "name": "Modern Physics",
+    "instructor": null,
+    "department": 4,
+    "program": 22,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.888Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 69,
+  "fields": {
+    "code": "ENV101",
+    "name": "Environmental Science",
+    "instructor": null,
+    "department": 4,
+    "program": 23,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.893Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 70,
+  "fields": {
+    "code": "ENV201",
+    "name": "Ecology",
+    "instructor": null,
+    "department": 4,
+    "program": 23,
+    "semester": null,
+    "credits": 3,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.897Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 71,
+  "fields": {
+    "code": "ENV301",
+    "name": "Environmental Management",
+    "instructor": 4,
+    "department": 4,
+    "program": 23,
+    "semester": 2,
+    "credits": 3,
+    "schedule": "Friday 8AM - 10AM",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-05-28T23:39:00.902Z"
+  }
+},
+{
+  "model": "academics.course",
+  "pk": 78,
+  "fields": {
+    "code": "CHT22",
+    "name": "Java Course",
+    "instructor": null,
+    "department": null,
+    "program": 14,
+    "semester": null,
+    "credits": 12,
+    "schedule": "",
+    "room": "A101",
+    "capacity": 30,
+    "created_at": "2026-06-03T14:15:21.911Z"
+  }
+},
+{
+  "model": "academics.courseoffering",
+  "pk": 3,
+  "fields": {
+    "course": 7,
+    "instructor": 1,
+    "semester": 4,
+    "section": "10",
+    "room": "B201",
+    "schedule": "Monday 10AM - 12PM",
+    "capacity": 40,
+    "drop_deadline": "2026-06-30",
+    "registration_open": "2026-06-06",
+    "registration_close": "2026-06-27",
+    "created_at": "2026-06-03T15:07:51.701Z"
+  }
+},
+{
+  "model": "academics.courseoffering",
+  "pk": 4,
+  "fields": {
+    "course": 11,
+    "instructor": 1,
+    "semester": 3,
+    "section": "12",
+    "room": "C102",
+    "schedule": "Wednesday 9AM - 11AM",
+    "capacity": 40,
+    "drop_deadline": "2026-06-30",
+    "registration_open": "2026-06-10",
+    "registration_close": "2026-06-25",
+    "created_at": "2026-06-04T14:07:43.435Z"
+  }
+},
+{
+  "model": "academics.courseoffering",
+  "pk": 5,
+  "fields": {
+    "course": 14,
+    "instructor": 4,
+    "semester": 2,
+    "section": "10",
+    "room": "D404",
+    "schedule": "Monday 10AM - 12PM",
+    "capacity": 40,
+    "drop_deadline": "2026-06-27",
+    "registration_open": "2026-06-01",
+    "registration_close": "2026-06-13",
+    "created_at": "2026-06-04T15:35:56.482Z"
+  }
+},
+{
+  "model": "academics.courseoffering",
+  "pk": 6,
+  "fields": {
+    "course": 17,
+    "instructor": 1,
+    "semester": 4,
+    "section": "10",
+    "room": "D404",
+    "schedule": "tuesday",
+    "capacity": 40,
+    "drop_deadline": "2026-07-31",
+    "registration_open": "2026-07-14",
+    "registration_close": "2026-06-26",
+    "created_at": "2026-06-06T21:25:15.581Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 3,
+  "fields": {
+    "student": 1,
+    "course": 5,
+    "offering": null,
+    "semester": 2,
+    "status": "DROPPED",
+    "midterm_grade": 89.0,
+    "final_grade": 67.0,
+    "letter_grade": "C+",
+    "gpa_points": 2.3,
+    "enrolled_at": "2026-05-11T18:24:08.441Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 11,
+  "fields": {
+    "student": 8,
+    "course": 7,
+    "offering": 3,
+    "semester": 4,
+    "status": "ENROLLED",
+    "midterm_grade": 89.0,
+    "final_grade": 70.0,
+    "letter_grade": "B",
+    "gpa_points": 3.0,
+    "enrolled_at": "2026-06-03T16:49:08.043Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 12,
+  "fields": {
+    "student": 2,
+    "course": 7,
+    "offering": 3,
+    "semester": 4,
+    "status": "ENROLLED",
+    "midterm_grade": 45.0,
+    "final_grade": 40.0,
+    "letter_grade": "F",
+    "gpa_points": 0.0,
+    "enrolled_at": "2026-06-03T17:14:41.049Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 13,
+  "fields": {
+    "student": 9,
+    "course": 11,
+    "offering": 4,
+    "semester": 3,
+    "status": "COMPLETED",
+    "midterm_grade": 84.0,
+    "final_grade": 74.0,
+    "letter_grade": "B",
+    "gpa_points": 3.0,
+    "enrolled_at": "2026-06-04T14:08:14.361Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 14,
+  "fields": {
+    "student": 9,
+    "course": 7,
+    "offering": 3,
+    "semester": 4,
+    "status": "ENROLLED",
+    "midterm_grade": 75.0,
+    "final_grade": 90.0,
+    "letter_grade": "A+",
+    "gpa_points": 4.0,
+    "enrolled_at": "2026-06-04T14:08:36.220Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 15,
+  "fields": {
+    "student": 9,
+    "course": 14,
+    "offering": 5,
+    "semester": 2,
+    "status": "ENROLLED",
+    "midterm_grade": null,
+    "final_grade": null,
+    "letter_grade": "",
+    "gpa_points": 0.0,
+    "enrolled_at": "2026-06-04T15:36:16.352Z"
+  }
+},
+{
+  "model": "academics.enrollment",
+  "pk": 16,
+  "fields": {
+    "student": 9,
+    "course": 17,
+    "offering": 6,
+    "semester": 4,
+    "status": "ENROLLED",
+    "midterm_grade": 76.0,
+    "final_grade": 90.0,
+    "letter_grade": "A+",
+    "gpa_points": 4.0,
+    "enrolled_at": "2026-06-06T21:25:41.344Z"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 1,
+  "fields": {
+    "enrollment": null,
+    "date": "2026-05-09",
+    "status": "PRESENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 2,
+  "fields": {
+    "enrollment": null,
+    "date": "2026-05-11",
+    "status": "PRESENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 3,
+  "fields": {
+    "enrollment": null,
+    "date": "2026-05-11",
+    "status": "LATE"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 6,
+  "fields": {
+    "enrollment": 11,
+    "date": "2026-06-05",
+    "status": "PRESENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 7,
+  "fields": {
+    "enrollment": 12,
+    "date": "2026-06-05",
+    "status": "PRESENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 8,
+  "fields": {
+    "enrollment": 14,
+    "date": "2026-06-05",
+    "status": "ABSENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 9,
+  "fields": {
+    "enrollment": 13,
+    "date": "2026-06-05",
+    "status": "PRESENT"
+  }
+},
+{
+  "model": "academics.attendance",
+  "pk": 10,
+  "fields": {
+    "enrollment": 16,
+    "date": "2026-06-06",
+    "status": "PRESENT"
+  }
+}
+]

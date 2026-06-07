@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import dj_database_url
 from dotenv import load_dotenv
 from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -64,16 +65,47 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "student_registration_system.wsgi.application"
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
+if DEBUG:
+
+    DATABASES = {
+
+        "default": {
+
+            "ENGINE":
+                "django.db.backends.postgresql",
+
+            "NAME":
+                os.getenv("DB_NAME"),
+
+            "USER":
+                os.getenv("DB_USER"),
+
+            "PASSWORD":
+                os.getenv("DB_PASSWORD"),
+
+            "HOST":
+                os.getenv("DB_HOST"),
+
+            "PORT":
+                os.getenv("DB_PORT"),
+
+        }
+
     }
-}
+
+else:
+
+    DATABASES = {
+
+        "default":
+
+            dj_database_url.config(
+
+                conn_max_age=600
+
+            )
+
+    }
 
 AUTH_PASSWORD_VALIDATORS = []
 
