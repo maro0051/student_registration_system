@@ -76,15 +76,17 @@ return (
 
         <div className="card mb-4">
             <div className="card-body">
-                <h3>
-                    welcome to your dashboard
-                    {" "}
-                    {student.student_name}
-                </h3>
-                <p className="text-muted">
+                <h2 className="fw-bold text-success">
 
-                    Here you can view your academic progress,
-                     recent courses, timetable, results and transcript. Use the buttons below to navigate to different sections of your student portal.
+                    welcome to your dashboard
+                    
+                    {student.student_name}
+                </h2>
+                <p className="text-muted mb-0">
+
+                    Track your academic progress,
+                    courses, grades, attendance,
+                    timetable and transcript.
                 </p>
             </div>
         </div>
@@ -93,17 +95,23 @@ return (
 
             <div className="col-md-3">
 
-                <div className="card shadow-sm border-0">
+                <div className="
+                         card 
+                         shadow-sm 
+                         border-0
+                         stat-card
+                    "
+                >
 
                     <div className="card-body">
 
                         <h6 className="text-muted">
 
-                            Student ID
+                            🎓 Student ID
 
                         </h6>
 
-                        <h4>
+                        <h4 className="fw-bold text-success">
 
                             {student.student_id}
 
@@ -269,11 +277,26 @@ return (
 
             <div className="card-body">
 
-                <h5 className="mb-3">
+                <div className="d-flex justify-content-between">
+                    <h5 className="fw-bold">
 
-                    Recent Courses
+                        📚 Recent Courses
 
-                </h5>
+                   </h5>
+                   <span
+                       className="
+                           badge
+                           bd-success
+                        "
+                    >
+                        {
+                            student.recent_courses
+                                ?.length || 0
+                        }
+
+                        Courses 
+                    </span>
+                </div>
 
                 <div className="table-responsive">
 
