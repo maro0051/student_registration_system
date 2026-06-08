@@ -17,7 +17,7 @@ import StaffDashboard from "./pages/staff/StaffDashboard";
 import Students from "./pages/admin/Students";
 import Staff from "./pages/admin/Staff";
 import CreateStaff from "./pages/admin/staff/CreateStaff";
-import EditStaff from "./pages/admin/staff/editstaff";
+import EditStaff from "./pages/admin/staff/EditStaff";
 
 import Programs from "./pages/admin/programs/Programs";
 import CreateProgram from "./pages/admin/programs/CreateProgram";
@@ -43,7 +43,7 @@ import Transcript from "./pages/student/Transcript";
 import StudentProfile from "./pages/student/Profile";
 import StudentAttendance from "./pages/student/StudentAttendance";
 
-import MyClasses from "./pages/staff/Myclasses";
+import MyClasses from "./pages/staff/MyClasses";
 import Attendance from "./pages/staff/Attendance";
 import StaffGrades from "./pages/staff/StaffGrades";
 import StaffProfile from "./pages/staff/StaffProfile";
@@ -63,7 +63,7 @@ import Analytics from "./pages/admin/analytics/Analytics";
 import Dashboard from "./pages/admin/Dashboard";
 
 import Grades from "./pages/admin/grades/Grades";
-import EditGrade from "./pages/admin/grades/editgrade";
+import EditGrade from "./pages/admin/grades/EditGrade";
 
 import Reports from "./pages/admin/reports/Reports";
 import EnrollmentReport from "./pages/admin/reports/EnrollmentReport";
