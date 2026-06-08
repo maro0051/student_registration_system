@@ -427,6 +427,23 @@ function CourseOfferings() {
                     }
 
                 </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                   <button
+
+                       className="btn btn-danger"
+
+                       onClick={() =>
+                           navigate(-1)
+                        }
+
+                    >
+
+                      ← Back
+
+                    </button>
+
+                </div>
 
             </div>
 

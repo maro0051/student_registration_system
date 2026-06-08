@@ -139,19 +139,7 @@ return (
 
         <div className="d-flex align-items-center mb-4">
 
-            <button
-
-                className="btn btn-secondary me-3"
-
-                onClick={() =>
-                    navigate(-1)
-                }
-
-            >
-
-                ← Back
-
-            </button>
+            
 
             <h2 className="mb-0">
 
@@ -430,6 +418,21 @@ return (
 
                 </div>
 
+            </div>
+            <div className=" mt-4 d-flex justify-content-end gap-2 flex-wrap">
+                <button
+
+                     className="btn btn-danger me-3"
+
+                     onClick={() =>
+                         navigate(-1)
+                    }
+
+                >
+
+                  ← Back
+
+                </button>
             </div>
 
         </div>

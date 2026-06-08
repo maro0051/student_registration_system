@@ -1,38 +1,45 @@
+import { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 
-function AdminLayout({
-    children
-}) {
+function AdminLayout({ children }) {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
     return (
+        <div className="admin-layout">
 
-        <div className="d-flex">
+            <button
+                className="mobile-menu-btn"
+                onClick={() => setSidebarOpen(!sidebarOpen)}
+            >
+                ☰
+            </button>
 
-            <Sidebar />
+            {sidebarOpen && (
+                <div
+                    className="sidebar-overlay"
+                    onClick={() => setSidebarOpen(false)}
+                />
+            )}
 
             <div
-                className="flex-grow-1"
-                style={{
-                    marginLeft: "260px",
-                    minHeight: "100vh"
-                }}
+                className={`sidebar-wrapper ${
+                    sidebarOpen ? "open" : ""
+                }`}
             >
+                <Sidebar />
+            </div>
 
+            <div className="main-content">
                 <Navbar />
 
-                <div className="p-4">
-
+                <main className="dashboard-content">
                     {children}
-
-                </div>
-
+                </main>
             </div>
 
         </div>
-
     );
-
 }
 
 export default AdminLayout;

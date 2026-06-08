@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import api from "../../../api/axios";
 import AdminLayout from "../../../layouts/AdminLayout";
 
 function Analytics() {
+
+    const navigate = useNavigate();
 
     const [analytics, setAnalytics] =
         useState({
@@ -316,6 +319,23 @@ function Analytics() {
                             {analytics.fail_rate}%
                         </strong>
                     </p>
+
+                </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                   <button
+
+                       className="btn btn-danger"
+
+                       onClick={() =>
+                           navigate(-1)
+                        }
+
+                    >
+
+                      ← Back
+
+                    </button>
 
                 </div>
 

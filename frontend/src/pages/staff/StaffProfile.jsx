@@ -70,19 +70,7 @@ function StaffProfile() {
 
                 </h2>
 
-                <button
-
-                    className="btn btn-secondary"
-
-                    onClick={() =>
-                        navigate(-1)
-                    }
-
-                >
-
-                    ← Back
-
-                </button>
+                
 
             </div>
 
@@ -217,6 +205,23 @@ function StaffProfile() {
                     >
 
                         Update Profile
+
+                    </button>
+
+                </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                    <button
+
+                         className="btn btn-danger"
+
+                         onClick={() =>
+                             navigate(-1)
+                        }
+
+                    >
+
+                       ← Back
 
                     </button>
 

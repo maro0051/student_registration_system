@@ -3,11 +3,15 @@ import {
     useState
 } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import api from "../../api/axios";
 
 import StaffLayout from "../../layouts/StaffLayout";
 
 function StaffTimetable() {
+
+    const navigate = useNavigate();
 
     const [classes, setClasses] =
         useState([]);
@@ -211,6 +215,23 @@ function StaffTimetable() {
                         )
 
                     }
+
+                </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                    <button
+
+                        className="btn btn-danger"
+
+                        onClick={() =>
+                            navigate(-1)
+                        }
+
+                    >
+
+                      ← Back
+
+                    </button>
 
                 </div>
 

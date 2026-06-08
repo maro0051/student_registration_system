@@ -103,11 +103,7 @@ function Sidebar() {
                 background:
                     "linear-gradient(180deg,#4F46E5,#4338CA)",
 
-                position: "fixed",
-
-                left: 0,
-
-                top: 0
+                
 
             }}
 

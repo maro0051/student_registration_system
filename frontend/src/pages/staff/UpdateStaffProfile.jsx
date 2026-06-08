@@ -132,23 +132,11 @@ function UpdateStaffProfile() {
 
                 <h2>
 
-                    Update Profile
+                    Update Your Profile
 
                 </h2>
 
-                <button
-
-                    className="btn btn-secondary"
-
-                    onClick={() =>
-                        navigate(-1)
-                    }
-
-                >
-
-                    ← Back
-
-                </button>
+                
 
             </div>
 
@@ -256,6 +244,23 @@ function UpdateStaffProfile() {
                         </button>
 
                     </form>
+
+                </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                    <button
+
+                        className="btn btn-danger"
+
+                        onClick={() =>
+                            navigate(-1)
+                        }
+
+                    >
+
+                      ← Back
+
+                    </button>
 
                 </div>
 

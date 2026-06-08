@@ -1,39 +1,39 @@
-import Navbar from "../components/Navbar";
+import { useState } from "react";
 import StaffSidebar from "../components/StaffSidebar";
 
-function StaffLayout({
+function StaffLayout({ children }) {
 
-    children
-
-}) {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
     return (
 
-        <div
+        <div className="admin-layout">
 
-            className="d-flex"
+            <button
+                className="mobile-menu-btn"
+                onClick={() => setSidebarOpen(!sidebarOpen)}
+            >
+                ☰
+            </button>
 
-            style={{
-                minHeight: "100vh",
-                background:
-                    "#f8fafc"
-            }}
-
-        >
-
-            <StaffSidebar />
+            {sidebarOpen && (
+                <div
+                    className="sidebar-overlay"
+                    onClick={() => setSidebarOpen(false)}
+                />
+            )}
 
             <div
-
-                className="
-                    flex-grow-1
-                    p-4
-                "
-
+                className={`sidebar-wrapper ${
+                    sidebarOpen ? "open" : ""
+                }`}
             >
+                <StaffSidebar />
+            </div>
+
+            <div className="main-content">
 
                 <div
-
                     className="
                         bg-white
                         rounded
@@ -41,39 +41,30 @@ function StaffLayout({
                         p-3
                         mb-4
                     "
-
                 >
 
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between align-items-center">
 
                         <div>
 
                             <h4 className="mb-0">
-
                                 Staff Portal
-
                             </h4>
 
                             <small className="text-muted">
-
                                 Student Registration System
-
                             </small>
 
                         </div>
 
                         <span
-
                             className="
                                 badge
                                 bg-success
                                 fs-6
                             "
-
                         >
-
                             Staff
-
                         </span>
 
                     </div>
@@ -91,4 +82,3 @@ function StaffLayout({
 }
 
 export default StaffLayout;
-

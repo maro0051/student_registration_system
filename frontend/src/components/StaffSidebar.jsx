@@ -18,7 +18,8 @@ function StaffSidebar() {
 
             style={{
                 width: "280px",
-                minHeight: "100vh"
+                minHeight: "100vh",
+                overflow: "auto"
             }}
 
         >

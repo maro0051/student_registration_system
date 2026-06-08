@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import api from "../../../api/axios";
 import AdminLayout from "../../../layouts/AdminLayout";
 
 function Reports() {
+     const navigate = useNavigate();
 
     const [reports, setReports] =
         useState([]);
@@ -447,6 +449,23 @@ function Reports() {
                         )
 
                     }
+
+                </div>
+                <div className="mt-4 d-flex justify-content-end gap-2 flex-wrap">
+
+                   <button
+
+                       className="btn btn-danger"
+
+                       onClick={() =>
+                           navigate(-1)
+                        }
+
+                    >
+
+                      ← Back
+
+                    </button>
 
                 </div>
 

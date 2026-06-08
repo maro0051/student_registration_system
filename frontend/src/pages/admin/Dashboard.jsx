@@ -121,15 +121,13 @@ function Dashboard() {
 
     return (
 
-        <div className="d-flex bg-light">
+        <AdminLayout>
 
-            <Sidebar />
+            
 
             <div
                 className="container-fluid p-4"
-                style={{
-                    marginLeft: "280px"
-                }}
+                
             >
 
                 <div className="alert alert-primary border-0 shadow-sm rounded-4 mb-4">
@@ -496,7 +494,7 @@ function Dashboard() {
 
             </div>
 
-        </div>
+        </AdminLayout>
 
     );
 
