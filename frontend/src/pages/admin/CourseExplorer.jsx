@@ -4,7 +4,11 @@ import api from "../../api/axios";
 
 import AdminLayout from "../../layouts/AdminLayout";
 
+import { useNavigate } from "react-router-dom";
+
 function CourseExplorer() {
+
+    const navigate = useNavigate();
 
     const [departments, setDepartments] =
         useState([]);

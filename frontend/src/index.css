@@ -1056,3 +1056,17 @@ h3 {
         gap:10px;
     }
 }
+/* Mobile table scrolling */
+
+@media (max-width:768px){
+
+    .table-responsive{
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+    }
+
+    .table{
+        min-width:900px;
+    }
+
+}
