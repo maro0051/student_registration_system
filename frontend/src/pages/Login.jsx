@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import api from "../api/axios";
 
 function Login() {
+
+    const navigate = useNavigate();
 
 
 const [username, setUsername] =
@@ -156,6 +159,17 @@ return (
     >
 
         <div className="container">
+            <div className="mb-3">
+
+               <button
+                   type="button"
+                   className="btn btn-danger btn-sm"
+                   onClick={() => navigate("/")}
+                >
+                    ← Back to Home
+                </button>
+
+            </div>
 
             <div className="row justify-content-center">
 
@@ -211,6 +225,8 @@ return (
                                 >
 
                                     Student Registration System
+
+                                    only login as student or Staff
 
                                 </p>
 

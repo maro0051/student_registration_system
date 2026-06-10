@@ -4,6 +4,12 @@ import {
     Route,
     Navigate,
 } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Admissions from "./pages/Admissions";
+import Contact from "./pages/Contact";
+import ProgramsPage from "./pages/ProgramsPage";
+import CourseCatalog from "./pages/CourseCatalog";
 
 import Login from "./pages/Login";
 import CreateStudent from "./pages/admin/students/CreateStudent";
@@ -89,16 +95,13 @@ function App() {
 
                 {/* Default Route */}
 
-                <Route
-                    path="/"
-                    element={
-                        <Navigate
-                            to="/login"
-                        />
-                    }
-                />
-
-                {/* Login */}
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/admissions" element={<Admissions />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/programs" element={<ProgramsPage />} />
+                <Route path="/catalog" element={<CourseCatalog />} />
+                
 
                 <Route
                     path="/login"
